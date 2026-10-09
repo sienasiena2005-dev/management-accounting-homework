@@ -2,7 +2,7 @@
 
 Prepared for Elina Abdulmuslimova, student ID ea25077. Publish only to GitHub sienasiena2005-dev and Vercel sienasiena2005-4715, workspace siena8.
 
-This static repository contains a model student submission for the DIVORCE / SHERLOCK Financial Crime Scene case, the completed Bad Boss P&L workbook and explanation, and Elina's existing Year 2 Pork and Garlic decision tool. The solution is presented as Elina's certified worked example, as requested by the examiner. The ZIP assignments have different scopes; Checklist.md and Full-inventory.md distinguish requirements, evidence, reference and existing class status.
+This static repository contains Elina's certified submission for the DIVORCE / SHERLOCK Financial Crime Scene case, the completed Bad Boss P&L workbook and explanation, and Elina's existing Year 2 Pork and Garlic decision tool. The ZIP assignments have different scopes; Checklist.md and Full-inventory.md distinguish requirements, evidence, reference and existing class status.
 
 ## Routes
 
@@ -16,7 +16,7 @@ No build, API key, application login or database is required. Deploy the reposit
 
 ## Evidence limits and individual verification
 
-All 100 decisions are certified in the worked example, including the consistent EUR112,000 base inventory choice. Both independent original-evidence analyses are complete. The EUR9,000 count conflict and missing insurance/opening records remain disclosed; certification of a judgment does not create missing evidence. Completion of the separate course Day3 verification without AI has not been established. The class spreadsheet was not edited by this task.
+All 100 decisions are certified, including the consistent EUR112,000 base inventory choice. Both independent original-evidence analyses are complete. The EUR9,000 count conflict and missing insurance/opening records remain disclosed; certification of a judgment does not create missing evidence. Completion of the separate course Day3 verification without AI has not been established. The class spreadsheet was not edited by this task.
 
 The Year2 tool is reusable code, while actual Year1 records and saved browser inputs remain personal inputs. A new origin has separate local storage. The BadBoss budget is a managerial forecast with declared assumptions; contractor terms, marketing results and dated delivery resources require confirmation.
 

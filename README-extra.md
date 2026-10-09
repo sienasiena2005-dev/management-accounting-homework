@@ -1,6 +1,6 @@
 # Companion homework pages
 
-These flat files accompany the main DIVORCE/Sherlock submission for **Elina Abdulmuslimova (ea25077)**. The Year 2 page comes from Elina's 18 September project, commit `8f0928d`, whose recorded class link is `https://year-2-decision-simulator.vercel.app/` and whose Home Assignments status is **Accepted**. It replaces the earlier Markuss reference build. The Bad Boss page reuses an existing completed P&L site and its unchanged workbook as a separate assignment aid; Elina's Bad Boss link and status cells are blank, so this package does not claim that assignment has been approved for her.
+These flat files accompany the main DIVORCE/Sherlock submission for **Elina Abdulmuslimova (ea25077)**. The Year 2 page comes from Elina's 18 September project, commit `8f0928d`, whose recorded class link is `https://year-2-decision-simulator.vercel.app/` and whose Home Assignments status is **Accepted**. The Bad Boss page reuses an existing completed P&L site and its unchanged workbook as a separate assignment aid; Elina's Bad Boss link and status cells are blank, so this package does not claim that assignment has been approved for her.
 
 Only compiled asset URLs have been changed to fit the combined flat repository. Year 2 calculations and the P&L workbook have not been edited. No prior student's personal certification has been copied.
 
