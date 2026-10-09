@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/review",
+      "destination": "/review.html"
+    },
+    {
+      "source": "/bad-boss",
+      "destination": "/bad-boss.html"
+    },
+    {
+      "source": "/year-2",
+      "destination": "/year-2.html"
+    }
+  ]
+}
