@@ -4152,7 +4152,8 @@
   },
   "summary": {
     "revenue": 960000,
-    "netProfit": 65000,
+    "netProfit": null,
+    "profitBeforeMissingInsurance": 65000,
     "profitLabel": "Profit before missing insurance",
     "closingCash": 60000,
     "totalAssets": 531000,

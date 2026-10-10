@@ -2,17 +2,17 @@
   "caseId": "DPI-HT-01",
   "mode": "final",
   "status": "passed_with_disclosed_material_uncertainties",
-  "generatedAt": "2026-10-10T16:24:45.114903+00:00",
+  "generatedAt": "2026-10-10T16:33:32.180947+00:00",
   "submissionFile": "submission.json",
-  "submissionSHA256": "c607dbe9a5d1fe93808b327ab1cd5df285e3aa322b4b04770f616abd122aae61",
+  "submissionSHA256": "978e7ff85be2dc0243b6d7e295f417425455435c478a4e8b883cddb5ec5291c9",
   "originalSchemaSHA256": "33a0985a383d36336b537654c11f409a39e29b7512acdfe7dd5d9fc1ecd4781e",
   "originalTemplateSHA256": "9616a32de8a39a4d8e8b43b0926dd40f9a6630f15304166135e0a675c83a2938",
-  "validatorSHA256": "9bbf743be0cd302e10586de4effbca5fab38c84d846e472ec270af6450a2e611",
+  "validatorSHA256": "e1fee3074f873eb2d11516e4cbb64009398f8d9378380522b80771d8a277d3f0",
   "validatorScope": "Every keyword in the supplied schema; exact template identity;100 decisions/75 operational/25 material; decision field types and source locators; byte-identical retained originals; material effect equations; frozen independent positions; bank balances and original workbook/PDF schedules recomputed independently.",
   "accountingConclusion": "Validation of structure and conditional arithmetic is not unqualified account certification. Material source conflicts and missing inputs remain disclosed.",
   "counts": {
-    "checks": 820,
-    "passed": 820,
+    "checks": 821,
+    "passed": 821,
     "failedChecks": 0,
     "errors": 0,
     "warnings": 6,
@@ -86,7 +86,7 @@
     {
       "name": "numerical schedules",
       "status": "passed",
-      "checks": 151,
+      "checks": 152,
       "errors": 0
     },
     {
