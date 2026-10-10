@@ -1,0 +1,185 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DPI-HT-01 Student Submission",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "caseId",
+    "student",
+    "evidence",
+    "decisions",
+    "schedules",
+    "statements",
+    "reconciliations",
+    "uncertainties",
+    "boardRecommendation"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "1.0"
+    },
+    "caseId": {
+      "const": "DPI-HT-01"
+    },
+    "student": {
+      "type": "object",
+      "required": [
+        "id",
+        "name"
+      ]
+    },
+    "evidence": {
+      "type": "array"
+    },
+    "decisions": {
+      "type": "array",
+      "minItems": 100,
+      "maxItems": 100,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "category",
+          "reviewTier",
+          "question",
+          "answer",
+          "evidence",
+          "confidence"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^D[0-9]{3}$"
+          },
+          "category": {
+            "type": "string"
+          },
+          "reviewTier": {
+            "enum": [
+              "operational",
+              "material_judgment"
+            ]
+          },
+          "question": {
+            "type": "string"
+          },
+          "answer": {},
+          "evidence": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "confidence": {
+            "enum": [
+              "low",
+              "medium",
+              "high"
+            ]
+          },
+          "aiProposal": {},
+          "independentChallenge": {
+            "type": "string",
+            "minLength": 20
+          },
+          "studentReasoning": {
+            "type": "string",
+            "minLength": 20
+          },
+          "statementEffect": {
+            "type": "object",
+            "required": [
+              "profit",
+              "cash",
+              "assets",
+              "liabilities",
+              "equity"
+            ],
+            "properties": {
+              "profit": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "cash": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "assets": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "liabilities": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "equity": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              }
+            },
+            "additionalProperties": false
+          },
+          "changedFromAI": {
+            "type": "boolean"
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "reviewTier": {
+                  "const": "material_judgment"
+                }
+              },
+              "required": [
+                "reviewTier"
+              ]
+            },
+            "then": {
+              "required": [
+                "aiProposal",
+                "independentChallenge",
+                "studentReasoning",
+                "statementEffect",
+                "changedFromAI"
+              ]
+            }
+          }
+        ],
+        "additionalProperties": true
+      }
+    },
+    "schedules": {
+      "type": "object"
+    },
+    "statements": {
+      "type": "object",
+      "required": [
+        "profitAndLoss",
+        "cashFlow",
+        "balanceSheet"
+      ]
+    },
+    "reconciliations": {
+      "type": "array"
+    },
+    "uncertainties": {
+      "type": "array"
+    },
+    "boardRecommendation": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

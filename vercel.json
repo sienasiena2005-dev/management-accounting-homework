@@ -1,18 +1,9 @@
 {
   "version": 2,
   "cleanUrls": true,
-  "rewrites": [
-    {
-      "source": "/review",
-      "destination": "/review.html"
-    },
-    {
-      "source": "/bad-boss",
-      "destination": "/bad-boss.html"
-    },
-    {
-      "source": "/year-2",
-      "destination": "/year-2.html"
-    }
+  "rewrites": [{ "source": "/review", "destination": "/review.html" }],
+  "headers": [
+    { "source": "/submission.json", "headers": [{ "key": "Content-Type", "value": "application/json; charset=utf-8" }, { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }] },
+    { "source": "/(.*)", "headers": [{ "key": "X-Content-Type-Options", "value": "nosniff" }, { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }] }
   ]
 }

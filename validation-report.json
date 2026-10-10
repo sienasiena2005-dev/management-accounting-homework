@@ -1,0 +1,105 @@
+{
+  "caseId": "DPI-HT-01",
+  "mode": "final",
+  "status": "passed_with_disclosed_material_uncertainties",
+  "generatedAt": "2026-10-10T16:24:45.114903+00:00",
+  "submissionFile": "submission.json",
+  "submissionSHA256": "c607dbe9a5d1fe93808b327ab1cd5df285e3aa322b4b04770f616abd122aae61",
+  "originalSchemaSHA256": "33a0985a383d36336b537654c11f409a39e29b7512acdfe7dd5d9fc1ecd4781e",
+  "originalTemplateSHA256": "9616a32de8a39a4d8e8b43b0926dd40f9a6630f15304166135e0a675c83a2938",
+  "validatorSHA256": "9bbf743be0cd302e10586de4effbca5fab38c84d846e472ec270af6450a2e611",
+  "validatorScope": "Every keyword in the supplied schema; exact template identity;100 decisions/75 operational/25 material; decision field types and source locators; byte-identical retained originals; material effect equations; frozen independent positions; bank balances and original workbook/PDF schedules recomputed independently.",
+  "accountingConclusion": "Validation of structure and conditional arithmetic is not unqualified account certification. Material source conflicts and missing inputs remain disclosed.",
+  "counts": {
+    "checks": 820,
+    "passed": 820,
+    "failedChecks": 0,
+    "errors": 0,
+    "warnings": 6,
+    "decisions": 100,
+    "materialDecisions": 25
+  },
+  "errors": [],
+  "warnings": [
+    {
+      "code": "INVENTORY_CONFLICT",
+      "message": "Original evidence differs by 9,000. The selected scenario reconciles conditionally, but this is an unresolved evidence difference.",
+      "amount": 9000
+    },
+    {
+      "code": "INSURANCE_UNKNOWN",
+      "message": "No amount or coverage evidence supports a complete final profit or prepaid-insurance balance. Numeric statements are conditional before missing insurance.",
+      "amount": null
+    },
+    {
+      "code": "OPENING_BALANCES_INFERRED",
+      "message": "Opening AR, supplier payable and equity depend on minimum closed-ledger assumptions; balance-sheet equality does not confirm completeness.",
+      "amount": null
+    },
+    {
+      "code": "DEPRECIATION_ESTIMATE",
+      "message": "24,000 is a supplied estimate without asset-level method/lives, not an independently verified charge.",
+      "amount": 24000
+    },
+    {
+      "code": "MONTHLY_PAYROLL_UNKNOWN",
+      "message": "Original bank has a combined Jan–Aug payroll payment; eight individual month values cannot be validated.",
+      "amount": null
+    },
+    {
+      "code": "DEBT_MATURITY_UNKNOWN",
+      "message": "Confirmed principal cannot be split reliably between current and noncurrent without maturity evidence.",
+      "amount": 131000.0
+    }
+  ],
+  "checks": [
+    {
+      "name": "structure",
+      "status": "passed",
+      "checks": 457,
+      "errors": 0
+    },
+    {
+      "name": "source copies",
+      "status": "passed",
+      "checks": 50,
+      "errors": 0
+    },
+    {
+      "name": "references",
+      "status": "passed",
+      "checks": 0,
+      "errors": 0
+    },
+    {
+      "name": "effects",
+      "status": "passed",
+      "checks": 53,
+      "errors": 0
+    },
+    {
+      "name": "source recomputation",
+      "status": "passed",
+      "checks": 49,
+      "errors": 0
+    },
+    {
+      "name": "numerical schedules",
+      "status": "passed",
+      "checks": 151,
+      "errors": 0
+    },
+    {
+      "name": "independent trail",
+      "status": "passed",
+      "checks": 54,
+      "errors": 0
+    },
+    {
+      "name": "limitations",
+      "status": "passed",
+      "checks": 6,
+      "errors": 0
+    }
+  ]
+}

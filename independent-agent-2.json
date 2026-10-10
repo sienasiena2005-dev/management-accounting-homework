@@ -1,0 +1,1028 @@
+{
+  "caseId": "DPI-HT-01",
+  "agent": "Agent 2",
+  "independentAnalysisComplete": true,
+  "independenceStatement": "Original evidence and finance reference only; no Agent 1 conclusions or existing submission read before completion.",
+  "scope": "All original case evidence, original workbooks/CSV, and both visually rendered pages of PDFs 05,06,09.",
+  "certificationStatus": "AI independent position; student certification not made by this agent.",
+  "reportingDate": "2026-08-31",
+  "currency": "EUR",
+  "materialPositions": {
+    "D041": {
+      "answer": "September deposits 90,000 are contract liabilities, no August revenue. Receipt itself raises cash and liabilities by 90,000; correction from recorded sales has no second cash effect.",
+      "reasoning": "September deposits 90,000 are contract liabilities, no August revenue. Receipt itself raises cash and liabilities by 90,000; correction from recorded sales has no second cash effect.",
+      "evidence": [
+        "04 p2 NB-SEP, FF-SEP",
+        "bank DEP-NB, DEP-FF2",
+        "CRM FUT-01/02"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "−90,000 /0 /0 /+90,000 /−90,000",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High"
+    },
+    "D042": {
+      "answer": "New advance 50,000 is repayable bank debt. Reject “strategic income.” Receipt is financing cash.",
+      "reasoning": "New advance 50,000 is repayable bank debt. Reject “strategic income.” Receipt is financing cash.",
+      "evidence": [
+        "09 p1",
+        "bank LOAN-ADV",
+        "11 bank confirmation"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "−50,000 /0 /0 /+50,000 /−50,000",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High"
+    },
+    "D043": {
+      "answer": "Capitalize packaging machine 60,000; available 10 May. Depreciation separate. Reject repair label. Actual purchase moves cash −60,000 and PPE +60,000.",
+      "reasoning": "Capitalize packaging machine 60,000; available 10 May. Depreciation separate. Reject repair label. Actual purchase moves cash −60,000 and PPE +60,000.",
+      "evidence": [
+        "06 p2 A-910",
+        "08 Assets packaging row",
+        "bank CAPEX-PACK"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "+60,000 /0 /+60,000 /0 /+60,000 versus expensing",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High"
+    },
+    "D044": {
+      "answer": "Capitalize photo booth 20,000 as long-lived equipment; marketing use does not turn acquisition into period expense. Depreciation separate.",
+      "reasoning": "Capitalize photo booth 20,000 as long-lived equipment; marketing use does not turn acquisition into period expense. Depreciation separate.",
+      "evidence": [
+        "06 p2 P-404",
+        "08 photo row",
+        "bank CAPEX-PHOTO"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "+20,000 /0 /+20,000 /0 /+20,000 versus expensing",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High"
+    },
+    "D045": {
+      "answer": "Expense repair 10,000. Restores normal output, no increased capacity or useful life. Reject capitalization.",
+      "reasoning": "Expense repair 10,000. Restores normal output, no increased capacity or useful life. Reject capitalization.",
+      "evidence": [
+        "06 p2 R-771",
+        "08 repair row",
+        "bank REPAIR"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "−10,000 /0 /−10,000 /0 /−10,000",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High"
+    },
+    "D046": {
+      "answer": "Villa 70,000 is owner distribution. No business meeting, personal-name reservation. Do not capitalize a company asset or create an owner receivable without evidence of repayment rights. Reversal of erroneous expense plus distribution increases profit but leaves equity unchanged versus expense.",
+      "reasoning": "Villa 70,000 is owner distribution. No business meeting, personal-name reservation. Do not capitalize a company asset or create an owner receivable without evidence of repayment rights. Reversal of erroneous expense plus distribution increases profit but leaves equity unchanged versus expense.",
+      "evidence": [
+        "09 p1",
+        "bank VILLA",
+        "07 founder bonus note",
+        "10 p2 corroboration"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "+70,000 /0 /0 /0 /0 versus expensing; underlying distribution: profit0 cash−70,000 assets−70,000 equity−70,000",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High"
+    },
+    "D047": {
+      "answer": "Other owner spending 40,000 distribution absent genuine supported business purpose. Part of the same 110,000 founder bonus label, not additional payroll. Recovery claim would require evidence; no receivable invented.",
+      "reasoning": "Other owner spending 40,000 distribution absent genuine supported business purpose. Part of the same 110,000 founder bonus label, not additional payroll. Recovery claim would require evidence; no receivable invented.",
+      "evidence": [
+        "09 p1",
+        "bank OWNERCARD",
+        "07 founder bonus row",
+        "finance ref7"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "+40,000 /0 /0 /0 /0 versus expensing; underlying distribution: profit0 cash−40,000 assets−40,000 equity−40,000",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High"
+    },
+    "D048": {
+      "answer": "Physical materials consumed on delivered sales are cost of sales. File states 405,000, but inventory count implies 396,000. Preserve both; do not silently certify a value. My count-led provisional P&L uses396,000 pending correction of the stated405,000.",
+      "reasoning": "Physical materials consumed on delivered sales are cost of sales. File states 405,000, but inventory count implies 396,000. Preserve both; do not silently certify a value. My count-led provisional P&L uses396,000 pending correction of the stated405,000.",
+      "evidence": [
+        "05 pp1–2",
+        "06 p1"
+      ],
+      "confidence": "low",
+      "statementEffectExplanation": "Classification vs operating-expense presentation: profit0 cash0 assets0 liabilities0 equity0; count-led versus consumption-led: +9,000 /0 /+9,000 /0 /+9,000",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "Low for amount; High for category"
+    },
+    "D049": {
+      "answer": "Event staff 80,000 are direct service cost. Payroll cash75,000 is not the period expense; do not use commercial payroll in COGS. Reclassifying from admin lowers gross margin80,000 but leaves net profit unchanged.",
+      "reasoning": "Event staff 80,000 are direct service cost. Payroll cash75,000 is not the period expense; do not use commercial payroll in COGS. Reclassifying from admin lowers gross margin80,000 but leaves net profit unchanged.",
+      "evidence": [
+        "07 Payroll event-delivery row and totals"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "0 /0 /0 /0 /0 for category correction",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High"
+    },
+    "D056": {
+      "answer": "Recognize non-cash depreciation24,000 provisionally. Useful-life/method/asset-level breakdown is missing. Show operating expense separately since functional allocation is not evidenced.",
+      "reasoning": "Recognize non-cash depreciation24,000 provisionally. Useful-life/method/asset-level breakdown is missing. Show operating expense separately since functional allocation is not evidenced.",
+      "evidence": [
+        "08 Assets depreciation and opening rows",
+        "06 p2 availability"
+      ],
+      "confidence": "medium",
+      "statementEffectExplanation": "−24,000 /0 /−24,000 /0 /−24,000 versus omission",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "Medium"
+    },
+    "D057": {
+      "answer": "Impair/write off R-17 balance18,000; no recovery. This is credit loss, not a sales return, because liquidation concerns collectability of delivered sales. September evidence adjusts August.",
+      "reasoning": "Impair/write off R-17 balance18,000; no recovery. This is credit loss, not a sales return, because liquidation concerns collectability of delivered sales. September evidence adjusts August.",
+      "evidence": [
+        "04 p2 R-17",
+        "11 liquidator notice",
+        "CRM WEB-NCB"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "−18,000 /0 /−18,000 /0 /−18,000",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High"
+    },
+    "D058": {
+      "answer": "Damaged stock22,000 has zero saleable value, despite physical existence. Recognize write-off separately. Disposal quote2,000 is distinct and no present obligation is established; baseline excludes provision.",
+      "reasoning": "Damaged stock22,000 has zero saleable value, despite physical existence. Recognize write-off separately. Disposal quote2,000 is distinct and no present obligation is established; baseline excludes provision.",
+      "evidence": [
+        "05 pp1–2",
+        "11 independent assessment"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "−22,000 /0 /−22,000 /0 /−22,000; possible disposal provision adds−2,000 profit,+2,000 liabilities,−2,000 equity",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High for22,000; Medium for disposal obligation conclusion"
+    },
+    "D059": {
+      "answer": "Employee past-event obligation is probable and estimated: provision25,000. No cash paid. Disclose20,000–30,000 range; do not substitute zero or choose lower endpoint without basis.",
+      "reasoning": "Employee past-event obligation is probable and estimated: provision25,000. No cash paid. Disclose20,000–30,000 range; do not substitute zero or choose lower endpoint without basis.",
+      "evidence": [
+        "09 p2 external counsel at31Aug",
+        "11 confirmation"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "−25,000 /0 /0 /+25,000 /−25,000",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High recognition; Medium amount"
+    },
+    "D064": {
+      "answer": "NorthStar accepted goods12Feb: recognize180,000 delivered revenue, cash matched180,000, no closing AR. Alias differences do not create duplicate sales.",
+      "reasoning": "NorthStar accepted goods12Feb: recognize180,000 delivered revenue, cash matched180,000, no closing AR. Alias differences do not create duplicate sales.",
+      "evidence": [
+        "04 p1 INV-26012",
+        "03 C-001",
+        "bank RCPT-NS"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "Recognition relative to no sale: +180,000 /+180,000 /+180,000 /0 /+180,000 before related costs; reclassification of already-recorded valid sales has0 correction",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High"
+    },
+    "D065": {
+      "answer": "Freedom accepted18Mar: full200,000 revenue,142,000 cash,58,000 AR. Partial collection does not limit revenue to142,000. No specific additional loss established.",
+      "reasoning": "Freedom accepted18Mar: full200,000 revenue,142,000 cash,58,000 AR. Partial collection does not limit revenue to142,000. No specific additional loss established.",
+      "evidence": [
+        "04 p1 INV-26031",
+        "03 C-002",
+        "bank RCPT-FF"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "Relative to cash-only revenue: +58,000 /0 /+58,000 /0 /+58,000",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High"
+    },
+    "D066": {
+      "answer": "Phoenix event completed29Apr:100,000 revenue,70,000 collected,30,000 AR. Customer email acceptance plus CRM/date/invoice supports performance; naming inconsistency reconciled.",
+      "reasoning": "Phoenix event completed29Apr:100,000 revenue,70,000 collected,30,000 AR. Customer email acceptance plus CRM/date/invoice supports performance; naming inconsistency reconciled.",
+      "evidence": [
+        "04 p1 INV-26047",
+        "03 C-003",
+        "bank RCPT-PHX"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "Relative to cash-only revenue: +30,000 /0 /+30,000 /0 /+30,000",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High"
+    },
+    "D067": {
+      "answer": "Liberty delivered20Jun and accepted:120,000 revenue,95,000 cash,25,000 AR. Product mix allocation unavailable.",
+      "reasoning": "Liberty delivered20Jun and accepted:120,000 revenue,95,000 cash,25,000 AR. Product mix allocation unavailable.",
+      "evidence": [
+        "04 p1 INV-26063 acceptance",
+        "03 C-004",
+        "bank RCPT-LIB"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "Relative to cash-only revenue: +25,000 /0 /+25,000 /0 /+25,000",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High"
+    },
+    "D068": {
+      "answer": "Neither September event delivered by31Aug: zero period revenue;90,000 deposits. Same entry asD041, not another90,000 adjustment.",
+      "reasoning": "Neither September event delivered by31Aug: zero period revenue;90,000 deposits. Same entry asD041, not another90,000 adjustment.",
+      "evidence": [
+        "04 p2",
+        "CRM future rows",
+        "bank deposits"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "−90,000 /0 /0 /+90,000 /−90,000 versus August-sales treatment",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High"
+    },
+    "D071": {
+      "answer": "R-17 allowance/write-off18,000; grossAR186,000, netAR168,000 under opening-AR assumption. Specific loss fully supported; broader expected-loss estimate cannot be quantified from evidence. Same entry asD057.",
+      "reasoning": "R-17 allowance/write-off18,000; grossAR186,000, netAR168,000 under opening-AR assumption. Specific loss fully supported; broader expected-loss estimate cannot be quantified from evidence. Same entry asD057.",
+      "evidence": [
+        "04 p2",
+        "11",
+        "CRMWEB-NCB"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "−18,000 /0 /−18,000 /0 /−18,000",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High specific loss; Medium total AR completeness"
+    },
+    "D072": {
+      "answer": "Write down damaged carrying value22,000 tozero. Quote2,000 does not alter22,000 carrying value; it is separate future disposal cost. Same entry asD058.",
+      "reasoning": "Write down damaged carrying value22,000 tozero. Quote2,000 does not alter22,000 carrying value; it is separate future disposal cost. Same entry asD058.",
+      "evidence": [
+        "05 pp1–2",
+        "11"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "−22,000 /0 /−22,000 /0 /−22,000",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High"
+    },
+    "D073": {
+      "answer": "Best-estimate legal provision25,000, sensitivity20,000–30,000. Lower endpoint raisesprofit/equity5,000 and lowersliabilities5,000; upper doesreverse. Same entry asD059.",
+      "reasoning": "Best-estimate legal provision25,000, sensitivity20,000–30,000. Lower endpoint raisesprofit/equity5,000 and lowersliabilities5,000; upper doesreverse. Same entry asD059.",
+      "evidence": [
+        "09 p2",
+        "11"
+      ],
+      "confidence": "medium",
+      "statementEffectExplanation": "−25,000 /0 /0 /+25,000 /−25,000",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "Medium estimate; High recognition"
+    },
+    "D074": {
+      "answer": "Adopt supplied24,000 depreciation estimate pending independent schedule. Cannot derive plausible lives and then claim independently verified24,000. Accumulated69,000/netPPE191,000 conditional. Same entry asD056.",
+      "reasoning": "Adopt supplied24,000 depreciation estimate pending independent schedule. Cannot derive plausible lives and then claim independently verified24,000. Accumulated69,000/netPPE191,000 conditional. Same entry asD056.",
+      "evidence": [
+        "08 Assets rows4–8",
+        "06 p2"
+      ],
+      "confidence": "medium",
+      "statementEffectExplanation": "−24,000 /0 /−24,000 /0 /−24,000",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "Medium"
+    },
+    "D075": {
+      "answer": "Provisional closing inventory121,000 fromcount79,000+42,000, damagezero. This implies396,000COGS, contradicting stated405,000. Alternative112,000 usesconsumption-ledrollforward. Hold certification pending9,000 investigation.",
+      "reasoning": "Provisional closing inventory121,000 fromcount79,000+42,000, damagezero. This implies396,000COGS, contradicting stated405,000. Alternative112,000 usesconsumption-ledrollforward. Hold certification pending9,000 investigation.",
+      "evidence": [
+        "05 pp1–2",
+        "06 p1"
+      ],
+      "confidence": "low",
+      "statementEffectExplanation": "Count-led versus consumption-led: +9,000 /0 /+9,000 /0 /+9,000. Versus system143,000: damage correction−22,000 profit/assets/equity, sameD072",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "Low overall because conflicting sources"
+    },
+    "D091": {
+      "answer": "Approve clear supported corrections for use as provisional management accounts; withhold unqualified final accounts/valuation certification until9,000 inventory difference, insurance, opening balances and depreciation support are resolved. Balanced conditional numbers alone do not establish truth.",
+      "reasoning": "Approve clear supported corrections for use as provisional management accounts; withhold unqualified final accounts/valuation certification until9,000 inventory difference, insurance, opening balances and depreciation support are resolved. Balanced conditional numbers alone do not establish truth.",
+      "evidence": [
+        "All schedules",
+        "05 contradiction",
+        "08 estimate",
+        "missinginsurance",
+        "01 unreliable claims"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "No new accounting entry;0 /0 /0 /0 /0. Conditional profit65,000–74,000 at legalbestestimate before unknowninsurance",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High recommendation"
+    },
+    "D100": {
+      "answer": "Reject312,000 management profit for earn-out. Use only agreed/certified corrected basis after unresolvedschedules are settled; conditional reconstructed profit65,000–74,000 is238,000–247,000belowclaim. Do not inventearn-outformula or contractterms.",
+      "reasoning": "Reject312,000 management profit for earn-out. Use only agreed/certified corrected basis after unresolvedschedules are settled; conditional reconstructed profit65,000–74,000 is238,000–247,000belowclaim. Do not inventearn-outformula or contractterms.",
+      "evidence": [
+        "01 ManagementP&L",
+        "00 evidence hierarchy",
+        "original schedules"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "No new accounting entry;0 /0 /0 /0 /0",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High"
+    }
+  },
+  "materialDecisions": [
+    {
+      "id": "D041",
+      "answer": "September deposits 90,000 are contract liabilities, no August revenue. Receipt itself raises cash and liabilities by 90,000; correction from recorded sales has no second cash effect.",
+      "reasoning": "September deposits 90,000 are contract liabilities, no August revenue. Receipt itself raises cash and liabilities by 90,000; correction from recorded sales has no second cash effect.",
+      "evidence": [
+        "04 p2 NB-SEP, FF-SEP",
+        "bank DEP-NB, DEP-FF2",
+        "CRM FUT-01/02"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "−90,000 /0 /0 /+90,000 /−90,000",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High"
+    },
+    {
+      "id": "D042",
+      "answer": "New advance 50,000 is repayable bank debt. Reject “strategic income.” Receipt is financing cash.",
+      "reasoning": "New advance 50,000 is repayable bank debt. Reject “strategic income.” Receipt is financing cash.",
+      "evidence": [
+        "09 p1",
+        "bank LOAN-ADV",
+        "11 bank confirmation"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "−50,000 /0 /0 /+50,000 /−50,000",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High"
+    },
+    {
+      "id": "D043",
+      "answer": "Capitalize packaging machine 60,000; available 10 May. Depreciation separate. Reject repair label. Actual purchase moves cash −60,000 and PPE +60,000.",
+      "reasoning": "Capitalize packaging machine 60,000; available 10 May. Depreciation separate. Reject repair label. Actual purchase moves cash −60,000 and PPE +60,000.",
+      "evidence": [
+        "06 p2 A-910",
+        "08 Assets packaging row",
+        "bank CAPEX-PACK"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "+60,000 /0 /+60,000 /0 /+60,000 versus expensing",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High"
+    },
+    {
+      "id": "D044",
+      "answer": "Capitalize photo booth 20,000 as long-lived equipment; marketing use does not turn acquisition into period expense. Depreciation separate.",
+      "reasoning": "Capitalize photo booth 20,000 as long-lived equipment; marketing use does not turn acquisition into period expense. Depreciation separate.",
+      "evidence": [
+        "06 p2 P-404",
+        "08 photo row",
+        "bank CAPEX-PHOTO"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "+20,000 /0 /+20,000 /0 /+20,000 versus expensing",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High"
+    },
+    {
+      "id": "D045",
+      "answer": "Expense repair 10,000. Restores normal output, no increased capacity or useful life. Reject capitalization.",
+      "reasoning": "Expense repair 10,000. Restores normal output, no increased capacity or useful life. Reject capitalization.",
+      "evidence": [
+        "06 p2 R-771",
+        "08 repair row",
+        "bank REPAIR"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "−10,000 /0 /−10,000 /0 /−10,000",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High"
+    },
+    {
+      "id": "D046",
+      "answer": "Villa 70,000 is owner distribution. No business meeting, personal-name reservation. Do not capitalize a company asset or create an owner receivable without evidence of repayment rights. Reversal of erroneous expense plus distribution increases profit but leaves equity unchanged versus expense.",
+      "reasoning": "Villa 70,000 is owner distribution. No business meeting, personal-name reservation. Do not capitalize a company asset or create an owner receivable without evidence of repayment rights. Reversal of erroneous expense plus distribution increases profit but leaves equity unchanged versus expense.",
+      "evidence": [
+        "09 p1",
+        "bank VILLA",
+        "07 founder bonus note",
+        "10 p2 corroboration"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "+70,000 /0 /0 /0 /0 versus expensing; underlying distribution: profit0 cash−70,000 assets−70,000 equity−70,000",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High"
+    },
+    {
+      "id": "D047",
+      "answer": "Other owner spending 40,000 distribution absent genuine supported business purpose. Part of the same 110,000 founder bonus label, not additional payroll. Recovery claim would require evidence; no receivable invented.",
+      "reasoning": "Other owner spending 40,000 distribution absent genuine supported business purpose. Part of the same 110,000 founder bonus label, not additional payroll. Recovery claim would require evidence; no receivable invented.",
+      "evidence": [
+        "09 p1",
+        "bank OWNERCARD",
+        "07 founder bonus row",
+        "finance ref7"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "+40,000 /0 /0 /0 /0 versus expensing; underlying distribution: profit0 cash−40,000 assets−40,000 equity−40,000",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High"
+    },
+    {
+      "id": "D048",
+      "answer": "Physical materials consumed on delivered sales are cost of sales. File states 405,000, but inventory count implies 396,000. Preserve both; do not silently certify a value. My count-led provisional P&L uses396,000 pending correction of the stated405,000.",
+      "reasoning": "Physical materials consumed on delivered sales are cost of sales. File states 405,000, but inventory count implies 396,000. Preserve both; do not silently certify a value. My count-led provisional P&L uses396,000 pending correction of the stated405,000.",
+      "evidence": [
+        "05 pp1–2",
+        "06 p1"
+      ],
+      "confidence": "low",
+      "statementEffectExplanation": "Classification vs operating-expense presentation: profit0 cash0 assets0 liabilities0 equity0; count-led versus consumption-led: +9,000 /0 /+9,000 /0 /+9,000",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "Low for amount; High for category"
+    },
+    {
+      "id": "D049",
+      "answer": "Event staff 80,000 are direct service cost. Payroll cash75,000 is not the period expense; do not use commercial payroll in COGS. Reclassifying from admin lowers gross margin80,000 but leaves net profit unchanged.",
+      "reasoning": "Event staff 80,000 are direct service cost. Payroll cash75,000 is not the period expense; do not use commercial payroll in COGS. Reclassifying from admin lowers gross margin80,000 but leaves net profit unchanged.",
+      "evidence": [
+        "07 Payroll event-delivery row and totals"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "0 /0 /0 /0 /0 for category correction",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High"
+    },
+    {
+      "id": "D056",
+      "answer": "Recognize non-cash depreciation24,000 provisionally. Useful-life/method/asset-level breakdown is missing. Show operating expense separately since functional allocation is not evidenced.",
+      "reasoning": "Recognize non-cash depreciation24,000 provisionally. Useful-life/method/asset-level breakdown is missing. Show operating expense separately since functional allocation is not evidenced.",
+      "evidence": [
+        "08 Assets depreciation and opening rows",
+        "06 p2 availability"
+      ],
+      "confidence": "medium",
+      "statementEffectExplanation": "−24,000 /0 /−24,000 /0 /−24,000 versus omission",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "Medium"
+    },
+    {
+      "id": "D057",
+      "answer": "Impair/write off R-17 balance18,000; no recovery. This is credit loss, not a sales return, because liquidation concerns collectability of delivered sales. September evidence adjusts August.",
+      "reasoning": "Impair/write off R-17 balance18,000; no recovery. This is credit loss, not a sales return, because liquidation concerns collectability of delivered sales. September evidence adjusts August.",
+      "evidence": [
+        "04 p2 R-17",
+        "11 liquidator notice",
+        "CRM WEB-NCB"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "−18,000 /0 /−18,000 /0 /−18,000",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High"
+    },
+    {
+      "id": "D058",
+      "answer": "Damaged stock22,000 has zero saleable value, despite physical existence. Recognize write-off separately. Disposal quote2,000 is distinct and no present obligation is established; baseline excludes provision.",
+      "reasoning": "Damaged stock22,000 has zero saleable value, despite physical existence. Recognize write-off separately. Disposal quote2,000 is distinct and no present obligation is established; baseline excludes provision.",
+      "evidence": [
+        "05 pp1–2",
+        "11 independent assessment"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "−22,000 /0 /−22,000 /0 /−22,000; possible disposal provision adds−2,000 profit,+2,000 liabilities,−2,000 equity",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High for22,000; Medium for disposal obligation conclusion"
+    },
+    {
+      "id": "D059",
+      "answer": "Employee past-event obligation is probable and estimated: provision25,000. No cash paid. Disclose20,000–30,000 range; do not substitute zero or choose lower endpoint without basis.",
+      "reasoning": "Employee past-event obligation is probable and estimated: provision25,000. No cash paid. Disclose20,000–30,000 range; do not substitute zero or choose lower endpoint without basis.",
+      "evidence": [
+        "09 p2 external counsel at31Aug",
+        "11 confirmation"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "−25,000 /0 /0 /+25,000 /−25,000",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High recognition; Medium amount"
+    },
+    {
+      "id": "D064",
+      "answer": "NorthStar accepted goods12Feb: recognize180,000 delivered revenue, cash matched180,000, no closing AR. Alias differences do not create duplicate sales.",
+      "reasoning": "NorthStar accepted goods12Feb: recognize180,000 delivered revenue, cash matched180,000, no closing AR. Alias differences do not create duplicate sales.",
+      "evidence": [
+        "04 p1 INV-26012",
+        "03 C-001",
+        "bank RCPT-NS"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "Recognition relative to no sale: +180,000 /+180,000 /+180,000 /0 /+180,000 before related costs; reclassification of already-recorded valid sales has0 correction",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High"
+    },
+    {
+      "id": "D065",
+      "answer": "Freedom accepted18Mar: full200,000 revenue,142,000 cash,58,000 AR. Partial collection does not limit revenue to142,000. No specific additional loss established.",
+      "reasoning": "Freedom accepted18Mar: full200,000 revenue,142,000 cash,58,000 AR. Partial collection does not limit revenue to142,000. No specific additional loss established.",
+      "evidence": [
+        "04 p1 INV-26031",
+        "03 C-002",
+        "bank RCPT-FF"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "Relative to cash-only revenue: +58,000 /0 /+58,000 /0 /+58,000",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High"
+    },
+    {
+      "id": "D066",
+      "answer": "Phoenix event completed29Apr:100,000 revenue,70,000 collected,30,000 AR. Customer email acceptance plus CRM/date/invoice supports performance; naming inconsistency reconciled.",
+      "reasoning": "Phoenix event completed29Apr:100,000 revenue,70,000 collected,30,000 AR. Customer email acceptance plus CRM/date/invoice supports performance; naming inconsistency reconciled.",
+      "evidence": [
+        "04 p1 INV-26047",
+        "03 C-003",
+        "bank RCPT-PHX"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "Relative to cash-only revenue: +30,000 /0 /+30,000 /0 /+30,000",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High"
+    },
+    {
+      "id": "D067",
+      "answer": "Liberty delivered20Jun and accepted:120,000 revenue,95,000 cash,25,000 AR. Product mix allocation unavailable.",
+      "reasoning": "Liberty delivered20Jun and accepted:120,000 revenue,95,000 cash,25,000 AR. Product mix allocation unavailable.",
+      "evidence": [
+        "04 p1 INV-26063 acceptance",
+        "03 C-004",
+        "bank RCPT-LIB"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "Relative to cash-only revenue: +25,000 /0 /+25,000 /0 /+25,000",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High"
+    },
+    {
+      "id": "D068",
+      "answer": "Neither September event delivered by31Aug: zero period revenue;90,000 deposits. Same entry asD041, not another90,000 adjustment.",
+      "reasoning": "Neither September event delivered by31Aug: zero period revenue;90,000 deposits. Same entry asD041, not another90,000 adjustment.",
+      "evidence": [
+        "04 p2",
+        "CRM future rows",
+        "bank deposits"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "−90,000 /0 /0 /+90,000 /−90,000 versus August-sales treatment",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High"
+    },
+    {
+      "id": "D071",
+      "answer": "R-17 allowance/write-off18,000; grossAR186,000, netAR168,000 under opening-AR assumption. Specific loss fully supported; broader expected-loss estimate cannot be quantified from evidence. Same entry asD057.",
+      "reasoning": "R-17 allowance/write-off18,000; grossAR186,000, netAR168,000 under opening-AR assumption. Specific loss fully supported; broader expected-loss estimate cannot be quantified from evidence. Same entry asD057.",
+      "evidence": [
+        "04 p2",
+        "11",
+        "CRMWEB-NCB"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "−18,000 /0 /−18,000 /0 /−18,000",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High specific loss; Medium total AR completeness"
+    },
+    {
+      "id": "D072",
+      "answer": "Write down damaged carrying value22,000 tozero. Quote2,000 does not alter22,000 carrying value; it is separate future disposal cost. Same entry asD058.",
+      "reasoning": "Write down damaged carrying value22,000 tozero. Quote2,000 does not alter22,000 carrying value; it is separate future disposal cost. Same entry asD058.",
+      "evidence": [
+        "05 pp1–2",
+        "11"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "−22,000 /0 /−22,000 /0 /−22,000",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High"
+    },
+    {
+      "id": "D073",
+      "answer": "Best-estimate legal provision25,000, sensitivity20,000–30,000. Lower endpoint raisesprofit/equity5,000 and lowersliabilities5,000; upper doesreverse. Same entry asD059.",
+      "reasoning": "Best-estimate legal provision25,000, sensitivity20,000–30,000. Lower endpoint raisesprofit/equity5,000 and lowersliabilities5,000; upper doesreverse. Same entry asD059.",
+      "evidence": [
+        "09 p2",
+        "11"
+      ],
+      "confidence": "medium",
+      "statementEffectExplanation": "−25,000 /0 /0 /+25,000 /−25,000",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "Medium estimate; High recognition"
+    },
+    {
+      "id": "D074",
+      "answer": "Adopt supplied24,000 depreciation estimate pending independent schedule. Cannot derive plausible lives and then claim independently verified24,000. Accumulated69,000/netPPE191,000 conditional. Same entry asD056.",
+      "reasoning": "Adopt supplied24,000 depreciation estimate pending independent schedule. Cannot derive plausible lives and then claim independently verified24,000. Accumulated69,000/netPPE191,000 conditional. Same entry asD056.",
+      "evidence": [
+        "08 Assets rows4–8",
+        "06 p2"
+      ],
+      "confidence": "medium",
+      "statementEffectExplanation": "−24,000 /0 /−24,000 /0 /−24,000",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "Medium"
+    },
+    {
+      "id": "D075",
+      "answer": "Provisional closing inventory121,000 fromcount79,000+42,000, damagezero. This implies396,000COGS, contradicting stated405,000. Alternative112,000 usesconsumption-ledrollforward. Hold certification pending9,000 investigation.",
+      "reasoning": "Provisional closing inventory121,000 fromcount79,000+42,000, damagezero. This implies396,000COGS, contradicting stated405,000. Alternative112,000 usesconsumption-ledrollforward. Hold certification pending9,000 investigation.",
+      "evidence": [
+        "05 pp1–2",
+        "06 p1"
+      ],
+      "confidence": "low",
+      "statementEffectExplanation": "Count-led versus consumption-led: +9,000 /0 /+9,000 /0 /+9,000. Versus system143,000: damage correction−22,000 profit/assets/equity, sameD072",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "Low overall because conflicting sources"
+    },
+    {
+      "id": "D091",
+      "answer": "Approve clear supported corrections for use as provisional management accounts; withhold unqualified final accounts/valuation certification until9,000 inventory difference, insurance, opening balances and depreciation support are resolved. Balanced conditional numbers alone do not establish truth.",
+      "reasoning": "Approve clear supported corrections for use as provisional management accounts; withhold unqualified final accounts/valuation certification until9,000 inventory difference, insurance, opening balances and depreciation support are resolved. Balanced conditional numbers alone do not establish truth.",
+      "evidence": [
+        "All schedules",
+        "05 contradiction",
+        "08 estimate",
+        "missinginsurance",
+        "01 unreliable claims"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "No new accounting entry;0 /0 /0 /0 /0. Conditional profit65,000–74,000 at legalbestestimate before unknowninsurance",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High recommendation"
+    },
+    {
+      "id": "D100",
+      "answer": "Reject312,000 management profit for earn-out. Use only agreed/certified corrected basis after unresolvedschedules are settled; conditional reconstructed profit65,000–74,000 is238,000–247,000belowclaim. Do not inventearn-outformula or contractterms.",
+      "reasoning": "Reject312,000 management profit for earn-out. Use only agreed/certified corrected basis after unresolvedschedules are settled; conditional reconstructed profit65,000–74,000 is238,000–247,000belowclaim. Do not inventearn-outformula or contractterms.",
+      "evidence": [
+        "01 ManagementP&L",
+        "00 evidence hierarchy",
+        "original schedules"
+      ],
+      "confidence": "high",
+      "statementEffectExplanation": "No new accounting entry;0 /0 /0 /0 /0",
+      "effectBasis": "Correction from specifically described erroneous treatment; underlying transaction effects separately identified when useful. Repeated decisions describe the same entry and must not be added together.",
+      "confidenceExplanation": "High"
+    }
+  ],
+  "preferredScenario": "Count-led provisional: inventory121000, residual physical COGS396000, profit74000; hold unqualified certification pending9000 conflict resolution.",
+  "alternativeScenario": "Consumption-led: stated physical COGS405000, derived inventory112000, profit65000; also contradicts original warehouse count.",
+  "schedules": {
+    "revenueAndReceivables": [
+      {
+        "customer": "NorthStar",
+        "reference": "INV-26012",
+        "revenue": 180000,
+        "cash": 180000,
+        "grossReceivable": 0,
+        "loss": 0,
+        "netReceivable": 0
+      },
+      {
+        "customer": "Freedom",
+        "reference": "INV-26031",
+        "revenue": 200000,
+        "cash": 142000,
+        "grossReceivable": 58000,
+        "loss": 0,
+        "netReceivable": 58000
+      },
+      {
+        "customer": "Phoenix",
+        "reference": "INV-26047",
+        "revenue": 100000,
+        "cash": 70000,
+        "grossReceivable": 30000,
+        "loss": 0,
+        "netReceivable": 30000
+      },
+      {
+        "customer": "Liberty",
+        "reference": "INV-26063",
+        "revenue": 120000,
+        "cash": 95000,
+        "grossReceivable": 25000,
+        "loss": 0,
+        "netReceivable": 25000
+      },
+      {
+        "customer": "Finally Single web",
+        "reference": "WEB-FSB",
+        "revenue": 270000,
+        "cash": 250000,
+        "grossReceivable": 20000,
+        "loss": 0,
+        "netReceivable": 20000
+      },
+      {
+        "customer": "Never Call Back web",
+        "reference": "WEB-NCB",
+        "revenue": 90000,
+        "cash": 37000,
+        "grossReceivable": 53000,
+        "loss": 18000,
+        "netReceivable": 35000
+      }
+    ],
+    "receivablesRollForward": {
+      "openingARInferred": 35000,
+      "revenue": 960000,
+      "collectionsExcludingDeposits": 809000,
+      "loss": 18000,
+      "netClosingAR": 168000,
+      "openingBalanceCaveat": "Only collection35000 proved; model assumes all openingAR collected and no other openingdebtor balances."
+    },
+    "suppliers": [
+      {
+        "name": "BoxWorks",
+        "purchases": 130000,
+        "cashPaid": 105000,
+        "openingPayableInferred": 0,
+        "closingPayable": 25000
+      },
+      {
+        "name": "Glass & Drama",
+        "purchases": 120000,
+        "cashPaid": 92000,
+        "openingPayableInferred": 0,
+        "closingPayable": 28000
+      },
+      {
+        "name": "Print Again",
+        "purchases": 95000,
+        "cashPaid": 81000,
+        "openingPayableInferred": 0,
+        "closingPayable": 14000
+      },
+      {
+        "name": "Event Things Europe",
+        "purchases": 114000,
+        "cashPaid": 100000,
+        "openingPayableInferred": 45000,
+        "closingPayable": 59000
+      }
+    ],
+    "inventory": {
+      "opening": 80000,
+      "purchases": 459000,
+      "countedSaleableFSB": 79000,
+      "countedSaleableNCB": 42000,
+      "countedDamagedCarryingValue": 22000,
+      "countedPreWriteDownTotal": 143000,
+      "countedClosingSaleable": 121000,
+      "statedConsumption": 405000,
+      "rollForwardPreWriteDown": 134000,
+      "consumptionLedClosing": 112000,
+      "unresolvedDifference": 9000,
+      "disposalQuoteFutureCash": 2000,
+      "disposalProvisionBaseline": 0,
+      "disposalCaveat": "No presentlegal/constructiveobligation established byquote; recognizeadditionalprovision only if obligationconfirmed."
+    },
+    "payroll": {
+      "eventExpense": 80000,
+      "eventCash": 75000,
+      "salesExpense": 72000,
+      "salesCash": 68000,
+      "officeExpense": 96000,
+      "officeCash": 88000,
+      "totalExpense": 248000,
+      "totalCash": 231000,
+      "openingPayable": 15000,
+      "closingPayable": 32000,
+      "founderBonusExcludedAsDuplicateDistribution": 110000,
+      "monthlyAmounts": "Not provided; no monthly allocations invented."
+    },
+    "operatingExpenses": {
+      "rent": 48000,
+      "marketing": 55000,
+      "software": 16000,
+      "utilities": 12000,
+      "repairs": 10000,
+      "insurance": null,
+      "insuranceStatus": "Missing original evidence; not determinable."
+    },
+    "ppe": {
+      "openingCost": 180000,
+      "packagingAddition": 60000,
+      "photoBoothAddition": 20000,
+      "repairExcluded": 10000,
+      "closingCost": 260000,
+      "openingAccumulatedDepreciation": 45000,
+      "periodDepreciationEstimate": 24000,
+      "closingAccumulatedDepreciation": 69000,
+      "closingNetPPE": 191000,
+      "estimateCaveat": "No underlying life/method schedule; not independently recalculable."
+    },
+    "debt": {
+      "openingPrincipal": 100000,
+      "advance": 50000,
+      "repayment": 19000,
+      "closingPrincipal": 131000,
+      "interestExpense": 12000,
+      "interestPaid": 10000,
+      "closingInterestPayable": 2000,
+      "maturitySplit": "Unknown"
+    },
+    "equity": {
+      "openingResidualInferred": 170000,
+      "villaDistribution": 70000,
+      "otherCardDistribution": 40000,
+      "totalDistributions": 110000,
+      "openingCaveat": "Minimumclosedledgerassumptions; no signedopeningtrialbalance."
+    }
+  },
+  "statements": {
+    "countLed": {
+      "name": "Count-led provisional",
+      "status": "Conditional scenario, not unqualified certification",
+      "profitAndLoss": {
+        "revenue": 960000,
+        "physicalCOGS": 396000,
+        "serviceDirectPayroll": 80000,
+        "grossProfit": 484000,
+        "salesPayroll": 72000,
+        "officePayroll": 96000,
+        "rent": 48000,
+        "marketing": 55000,
+        "software": 16000,
+        "utilities": 12000,
+        "repairs": 10000,
+        "depreciation": 24000,
+        "badDebt": 18000,
+        "damagedStock": 22000,
+        "legalProvisionExpense": 25000,
+        "insuranceExpense": null,
+        "interestExpense": 12000,
+        "operatingProfit": 86000,
+        "netProfit": 74000,
+        "insuranceTreatment": "No supported entry; unknown, not verified zero. Statements conditional on no omitted insurance balance/expense."
+      },
+      "balanceSheet": {
+        "cash": 60000,
+        "netReceivables": 168000,
+        "inventory": 121000,
+        "ppeCost": 260000,
+        "accumulatedDepreciation": 69000,
+        "netPPE": 191000,
+        "supplierPayable": 126000,
+        "payrollPayable": 32000,
+        "customerDeposits": 90000,
+        "bankLoan": 131000,
+        "interestPayable": 2000,
+        "legalProvision": 25000,
+        "totalAssets": 540000,
+        "totalLiabilities": 406000,
+        "openingEquityInferred": 170000,
+        "distributions": 110000,
+        "closingEquity": 134000,
+        "totalLiabilitiesAndEquity": 540000
+      }
+    },
+    "consumptionLed": {
+      "name": "Consumption-led alternative",
+      "status": "Conditional scenario, not unqualified certification",
+      "profitAndLoss": {
+        "revenue": 960000,
+        "physicalCOGS": 405000,
+        "serviceDirectPayroll": 80000,
+        "grossProfit": 475000,
+        "salesPayroll": 72000,
+        "officePayroll": 96000,
+        "rent": 48000,
+        "marketing": 55000,
+        "software": 16000,
+        "utilities": 12000,
+        "repairs": 10000,
+        "depreciation": 24000,
+        "badDebt": 18000,
+        "damagedStock": 22000,
+        "legalProvisionExpense": 25000,
+        "insuranceExpense": null,
+        "interestExpense": 12000,
+        "operatingProfit": 77000,
+        "netProfit": 65000,
+        "insuranceTreatment": "No supported entry; unknown, not verified zero. Statements conditional on no omitted insurance balance/expense."
+      },
+      "balanceSheet": {
+        "cash": 60000,
+        "netReceivables": 168000,
+        "inventory": 112000,
+        "ppeCost": 260000,
+        "accumulatedDepreciation": 69000,
+        "netPPE": 191000,
+        "supplierPayable": 126000,
+        "payrollPayable": 32000,
+        "customerDeposits": 90000,
+        "bankLoan": 131000,
+        "interestPayable": 2000,
+        "legalProvision": 25000,
+        "totalAssets": 531000,
+        "totalLiabilities": 406000,
+        "openingEquityInferred": 170000,
+        "distributions": 110000,
+        "closingEquity": 125000,
+        "totalLiabilitiesAndEquity": 531000
+      }
+    },
+    "cashFlowBothScenarios": {
+      "openingCash": 80000,
+      "validCurrentSaleCollections": 774000,
+      "openingReceivableCollection": 35000,
+      "customerDepositsReceived": 90000,
+      "customerReceiptsTotal": 899000,
+      "supplierPayments": 378000,
+      "payrollPayments": 231000,
+      "rentMarketingSoftwareUtilitiesRepairs": 141000,
+      "interestPaidOperating": 10000,
+      "operatingCashFlow": 139000,
+      "ppePayments": 80000,
+      "investingCashFlow": -80000,
+      "loanAdvance": 50000,
+      "principalPayments": 19000,
+      "distributions": 110000,
+      "financingCashFlow": -79000,
+      "netCashChange": -20000,
+      "closingCash": 60000,
+      "currentPeriodBankCredits": 949000,
+      "bankDebits": 969000
+    }
+  },
+  "uncertainty": [
+    {
+      "issue": "Inventory",
+      "status": "Unresolved",
+      "amount": 9000,
+      "profitRange": [
+        65000,
+        74000
+      ],
+      "reason": "Original opening/purchases/consumption roll-forward contradicts original count by9000."
+    },
+    {
+      "issue": "Insurance",
+      "status": "Missing evidence",
+      "amount": null,
+      "reason": "No insurance premium/coverage/prepayment or bankmovement. Zeroentry is a conditional assumption, not proved zeroexpense."
+    },
+    {
+      "issue": "Opening balances",
+      "status": "Inferred minimum model",
+      "amount": null,
+      "reason": "AR35000, AP45000 andequity170000 inferred with no otheropeningbalances; obtain trialbalance."
+    },
+    {
+      "issue": "Depreciation",
+      "status": "Estimate unverified",
+      "amount": 24000,
+      "reason": "Supplied estimated24k without asset-specific schedule, lives or method."
+    },
+    {
+      "issue": "Legal provision",
+      "status": "Reasonable estimate range",
+      "amount": 25000,
+      "range": [
+        20000,
+        30000
+      ],
+      "profitEffectVsBestEstimate": [
+        -5000,
+        5000
+      ]
+    },
+    {
+      "issue": "Disposal",
+      "status": "Potential further obligation",
+      "amount": 2000,
+      "profitEffectIfProvisionRequired": -2000,
+      "reason": "Futurequote distinct fromdamagecarryingvalue; obligationnotproven."
+    },
+    {
+      "issue": "Monthly payroll",
+      "status": "Breakdown absent",
+      "amount": null,
+      "reason": "Only combined Jan-Aug bankpayment anddepartment totals supplied."
+    },
+    {
+      "issue": "Loan maturity",
+      "status": "Classification absent",
+      "amount": 131000,
+      "reason": "Cannot prove current/noncurrent split or reliable current ratio."
+    }
+  ],
+  "partialProfitSensitivityRange": [
+    60000,
+    79000
+  ],
+  "rangeCaveat": "Combines9k inventorybranches andlegalrange only. Unknowninsurance/depreciationerror notbounded; disposalobligation ifproved reducesrelevantprofit by2000.",
+  "boardRecommendation": "Continue core operations provisionally with cash controls; reject312000 earnoutbasis; withhold unqualifiedaccount/valuationapproval until inventory/openingbalances/insurance/depreciationsupport resolved.",
+  "detailedReportPath": "C:\\Users\\marku\\Documents\\Codex\\2026-10-10\\do-fully-everything-what-s-asked-2\\work\\agent2\\analysis.md"
+}
