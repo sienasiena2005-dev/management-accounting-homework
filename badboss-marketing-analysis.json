@@ -1,0 +1,864 @@
+{
+  "analyst": "Independent marketing and staffing analysis",
+  "independence": {
+    "originalSourcesOnly": true,
+    "otherAgentConclusionsNotRead": true,
+    "sourceRoot": "C:/Users/marku/Downloads/badboss/Student Package - P&L Only",
+    "paragraphConvention": "All w:p elements in document.xml body, including table-cell paragraphs; 1-based ordinal includes empty paragraphs."
+  },
+  "scope": "Marketing commitments, funnel, timing and HR employment-cost implications. Part 1 preserves existing decisions. Part 2 entries are proposals requiring integration with delivery capacity.",
+  "evidenceRules": [
+    {
+      "rule": "Do not alter source sheets 01–08 or introduce rescue actions in Part 1.",
+      "source": "00 Start Here Budget Review Assignment.docx ¶5,¶7–9; workbook 00 Read Me!B19:C19,B21:C22"
+    },
+    {
+      "rule": "Forecasts can include evidenced unsigned sales opportunities; signed contracts are not the only permissible basis.",
+      "source": "00 Start Here Budget Review Assignment.docx ¶8"
+    },
+    {
+      "rule": "Part 2 decisions must precede the budget and state timing, cost, effect and feasibility.",
+      "source": "00 Start Here Budget Review Assignment.docx ¶11–12"
+    }
+  ],
+  "existingMarketing": {
+    "months": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "monthlySpend": [
+      5500,
+      5000,
+      5000,
+      4500,
+      4000,
+      3500,
+      2000,
+      3000,
+      5500,
+      6000,
+      5000,
+      3500
+    ],
+    "annualSpend": 52500,
+    "priorAnnualSpend": 65500,
+    "annualChange": -13000,
+    "changePercent": -0.1984732824427481,
+    "source": "02 Historical Results and Draft P&L Budget.xlsx / 07 Draft Operating Costs!D11:O11,P11; 03 Prior Year Marketing!D7:O7,P7",
+    "activityCalendar": [
+      {
+        "months": [
+          "Jan",
+          "Feb",
+          "Mar"
+        ],
+        "activity": "Website refresh, testimonials and light retargeting. Existing database remains available.",
+        "source": "04 Marketing Director Plan.docx ¶7–8"
+      },
+      {
+        "months": [
+          "Apr",
+          "May",
+          "Jun",
+          "Jul",
+          "Aug"
+        ],
+        "activity": "Two small open-program campaigns and selected corporate case studies. July intentionally light.",
+        "source": "04 Marketing Director Plan.docx ¶9–10"
+      },
+      {
+        "months": [
+          "Sep",
+          "Oct",
+          "Nov"
+        ],
+        "activity": "Main new-client campaign, executive breakfasts and product launches.",
+        "source": "04 Marketing Director Plan.docx ¶11–12"
+      },
+      {
+        "months": [
+          "Dec"
+        ],
+        "activity": "Renewal and early-booking messages for the next year.",
+        "source": "04 Marketing Director Plan.docx ¶13–14"
+      }
+    ],
+    "part1Treatment": "Retain every monthly appropriation and stated activity. Do not restore the EUR13,000 cut, cancel activities, add paid campaigns or assume free additional promotion in Part 1.",
+    "noMeasuredUplift": "Higher-quality creative and follow-up are intentions; no new conversion rate has been tested on a complete campaign.",
+    "conversionEvidence": "04 Marketing Director Plan.docx ¶17–18"
+  },
+  "historicalFunnel": {
+    "spend": 65500,
+    "campaigns": 31,
+    "qualifiedCorporateLeads": 288,
+    "corporateWins": 58,
+    "openEnquiries": 817,
+    "openSeats": 198,
+    "corporateConversion": 0.2013888888888889,
+    "openConversion": 0.2423500611995104,
+    "source": "02 Historical Results and Draft P&L Budget.xlsx / 03 Prior Year Marketing!P7:P12; underlying D7:O12",
+    "monthlyCorporateConversion": [
+      0.20833333333333334,
+      0.2,
+      0.18518518518518517,
+      0.20689655172413793,
+      0.17391304347826086,
+      0.2222222222222222,
+      0.2,
+      0.2,
+      0.20588235294117646,
+      0.21052631578947367,
+      0.2,
+      0.2
+    ],
+    "monthlyOpenConversion": [
+      0.23076923076923078,
+      0.3103448275862069,
+      0.2222222222222222,
+      0.275,
+      0.2753623188405797,
+      0.2222222222222222,
+      0.14285714285714285,
+      0.18604651162790697,
+      0.25,
+      0.24545454545454545,
+      0.21951219512195122,
+      0.25
+    ],
+    "caveats": [
+      "The conversion measures are aggregate historical diagnostics. Lead/win and enquiry/seat cohorts are not matched; forecast lags are explicit assumptions.",
+      "Spend covers both corporate and open activities. A whole-funnel proportional-spend model can scale both historical outputs together, but is not a measured channel-specific CAC or causal elasticity.",
+      "Do not add marketing-supported wins on top of an unchanged total salesperson forecast: they are a route to the same customer revenue, not a separate revenue line.",
+      "Historical 58 wins and 49 delivered corporate programs measure different stages. Do not assume that every recorded win was delivered in the same month.",
+      "Sales director says approximately one quarter of corporate growth, not one quarter of all corporate revenue, comes from marketing enquiries."
+    ],
+    "growthSplitSource": "03 Sales Director Plan.docx ¶11",
+    "programsSource": "02 Historical Results and Draft P&L Budget.xlsx / 04 Prior Year Programs!P7:P9"
+  },
+  "part1DemandModel": {
+    "method": "Keep existing 2026 spend and activity mix. Estimate enquiries/leads using corresponding 2025 month volumes multiplied by the 2026/2025 monthly spend ratio. Apply pooled historical conversion with an explicit lag. This is a conservative planning assumption, not a proved demand curve.",
+    "openFormula": "2026 marketing enquiries[m] = 2025 enquiries[m] * 2026 spend[m] / 2025 spend[m]. Potential delivered seats[m] = enquiries[m-1] * (198/817). Integer seats = ROUNDDOWN(potential seats,0). Actual served seats require a scheduled event and cannot exceed 20 per existing room/date.",
+    "timingSource": "03 Sales Director Plan.docx ¶11 (open seats usually sell in four weeks before an event); 05 Operations and Trainer Plan.docx ¶14,¶19",
+    "januaryCarryover": {
+      "value": 60,
+      "meaning": "Use the observed December 2025 enquiry count as an explicit opening-pipeline proxy. It is not a signed order or a guarantee that all enquiries remain live.",
+      "source": "02 Historical Results and Draft P&L Budget.xlsx / 03 Prior Year Marketing!O11; 04 Marketing Director Plan.docx ¶8"
+    },
+    "corporateFormula": "Qualified leads generated in month m = 2025 leads[m] * 2026 spend[m] / 2025 spend[m]. Expected marketing-supported wins delivered around m+2 use historical 58/288 conversion, subject to staff/client/program capacity. Unknown January–February delivery pipeline must be stated separately; no automatic immediate revenue from autumn campaign.",
+    "corporateTimingSource": "03 Sales Director Plan.docx ¶11 (six to eight weeks); 04 Marketing Director Plan.docx ¶11–12",
+    "months": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "monthlyGeneratedCorporateLeads": [
+      22,
+      20,
+      20.76923076923077,
+      20.076923076923077,
+      18.4,
+      15.75,
+      8,
+      12.857142857142858,
+      24.933333333333334,
+      28.5,
+      23.076923076923077,
+      15.555555555555555
+    ],
+    "monthlyGeneratedOpenEnquiries": [
+      59.583333333333336,
+      58,
+      55.38461538461539,
+      55.38461538461539,
+      55.2,
+      47.25,
+      22.4,
+      36.857142857142854,
+      70.4,
+      82.5,
+      63.07692307692308,
+      46.666666666666664
+    ],
+    "monthlyLaggedEnquiryBasis": [
+      60,
+      59.583333333333336,
+      58,
+      55.38461538461539,
+      55.38461538461539,
+      55.2,
+      47.25,
+      22.4,
+      36.857142857142854,
+      70.4,
+      82.5,
+      63.07692307692308
+    ],
+    "monthlyPotentialOpenSeats": [
+      14.541003671970625,
+      14.440024479804162,
+      14.056303549571604,
+      13.422464927972886,
+      13.422464927972886,
+      13.377723378212975,
+      11.451040391676868,
+      5.428641370869033,
+      8.932330827067668,
+      17.061444308445534,
+      19.99388004895961,
+      15.286696167969119
+    ],
+    "monthlyIntegerPotentialOpenSeats": [
+      14,
+      14,
+      14,
+      13,
+      13,
+      13,
+      11,
+      5,
+      8,
+      17,
+      19,
+      15
+    ],
+    "annualGeneratedCorporateLeads": 229.91910866910865,
+    "annualGeneratedOpenEnquiries": 652.7032967032967,
+    "annualPotentialDeliveredOpenSeatsBeforeCapacity": 161.41401805049298,
+    "currentOpenCalendar": [
+      {
+        "month": "Jan",
+        "events": [
+          {
+            "id": "P02",
+            "name": "How to Look Busy All Day",
+            "days": 1,
+            "plannedSeats": 18,
+            "price": 200,
+            "source": "02 Historical Results and Draft P&L Budget.xlsx / 06 Draft Program Plan!B8:R8"
+          }
+        ],
+        "plannedSeats": 18,
+        "demandBeforeCapacity": 14.541003671970625,
+        "integerDemand": 14,
+        "servedOnCurrentDates": 14,
+        "revenueOnCurrentDates": 2800
+      },
+      {
+        "month": "Feb",
+        "events": [],
+        "plannedSeats": 0,
+        "demandBeforeCapacity": 14.440024479804162,
+        "integerDemand": 14,
+        "servedOnCurrentDates": 0,
+        "revenueOnCurrentDates": 0
+      },
+      {
+        "month": "Mar",
+        "events": [
+          {
+            "id": "P06",
+            "name": "Advanced Micromanagement",
+            "days": 2,
+            "plannedSeats": 20,
+            "price": 500,
+            "source": "02 Historical Results and Draft P&L Budget.xlsx / 06 Draft Program Plan!B12:R12"
+          }
+        ],
+        "plannedSeats": 20,
+        "demandBeforeCapacity": 14.056303549571604,
+        "integerDemand": 14,
+        "servedOnCurrentDates": 14,
+        "revenueOnCurrentDates": 7000
+      },
+      {
+        "month": "Apr",
+        "events": [],
+        "plannedSeats": 0,
+        "demandBeforeCapacity": 13.422464927972886,
+        "integerDemand": 13,
+        "servedOnCurrentDates": 0,
+        "revenueOnCurrentDates": 0
+      },
+      {
+        "month": "May",
+        "events": [
+          {
+            "id": "P10",
+            "name": "Executive Blame Delegation",
+            "days": 2,
+            "plannedSeats": 18,
+            "price": 600,
+            "source": "02 Historical Results and Draft P&L Budget.xlsx / 06 Draft Program Plan!B16:R16"
+          }
+        ],
+        "plannedSeats": 18,
+        "demandBeforeCapacity": 13.422464927972886,
+        "integerDemand": 13,
+        "servedOnCurrentDates": 13,
+        "revenueOnCurrentDates": 7800
+      },
+      {
+        "month": "Jun",
+        "events": [],
+        "plannedSeats": 0,
+        "demandBeforeCapacity": 13.377723378212975,
+        "integerDemand": 13,
+        "servedOnCurrentDates": 0,
+        "revenueOnCurrentDates": 0
+      },
+      {
+        "month": "Jul",
+        "events": [],
+        "plannedSeats": 0,
+        "demandBeforeCapacity": 11.451040391676868,
+        "integerDemand": 11,
+        "servedOnCurrentDates": 0,
+        "revenueOnCurrentDates": 0
+      },
+      {
+        "month": "Aug",
+        "events": [
+          {
+            "id": "P15",
+            "name": "How to Look Busy All Day",
+            "days": 1,
+            "plannedSeats": 20,
+            "price": 200,
+            "source": "02 Historical Results and Draft P&L Budget.xlsx / 06 Draft Program Plan!B21:R21"
+          }
+        ],
+        "plannedSeats": 20,
+        "demandBeforeCapacity": 5.428641370869033,
+        "integerDemand": 5,
+        "servedOnCurrentDates": 5,
+        "revenueOnCurrentDates": 1000
+      },
+      {
+        "month": "Sep",
+        "events": [
+          {
+            "id": "P18",
+            "name": "Executive Blame Delegation",
+            "days": 2,
+            "plannedSeats": 20,
+            "price": 600,
+            "source": "02 Historical Results and Draft P&L Budget.xlsx / 06 Draft Program Plan!B24:R24"
+          }
+        ],
+        "plannedSeats": 20,
+        "demandBeforeCapacity": 8.932330827067668,
+        "integerDemand": 8,
+        "servedOnCurrentDates": 8,
+        "revenueOnCurrentDates": 4800
+      },
+      {
+        "month": "Oct",
+        "events": [
+          {
+            "id": "P21",
+            "name": "Advanced Micromanagement",
+            "days": 2,
+            "plannedSeats": 20,
+            "price": 500,
+            "source": "02 Historical Results and Draft P&L Budget.xlsx / 06 Draft Program Plan!B27:R27"
+          }
+        ],
+        "plannedSeats": 20,
+        "demandBeforeCapacity": 17.061444308445534,
+        "integerDemand": 17,
+        "servedOnCurrentDates": 17,
+        "revenueOnCurrentDates": 8500
+      },
+      {
+        "month": "Nov",
+        "events": [
+          {
+            "id": "P24",
+            "name": "How to Look Busy All Day",
+            "days": 1,
+            "plannedSeats": 20,
+            "price": 200,
+            "source": "02 Historical Results and Draft P&L Budget.xlsx / 06 Draft Program Plan!B30:R30"
+          }
+        ],
+        "plannedSeats": 20,
+        "demandBeforeCapacity": 19.99388004895961,
+        "integerDemand": 19,
+        "servedOnCurrentDates": 19,
+        "revenueOnCurrentDates": 3800
+      },
+      {
+        "month": "Dec",
+        "events": [],
+        "plannedSeats": 0,
+        "demandBeforeCapacity": 15.286696167969119,
+        "integerDemand": 15,
+        "servedOnCurrentDates": 0,
+        "revenueOnCurrentDates": 0
+      }
+    ],
+    "currentCalendarDiagnostic": {
+      "events": 7,
+      "plannedSeats": 136,
+      "proposedExpectedIntegerAttendance": 90,
+      "expectedRevenueOnCurrentSevenDates": 35700,
+      "maximumRevenueAtExistingPrices": 56000,
+      "draftOpenSeatRevenue": 212000
+    },
+    "interpretation": [
+      "Do not impose 12 as a demand floor. Company background says a normal event can assemble about12–20 participants; insufficient enquiries can leave an event with fewer attendees.",
+      "Do not force the planned136 seats to be sold. At the existing seven dates, the explicit lagged funnel gives a lower attendance estimate; monthly program economics must use that attendance.",
+      "The adopted Part 1 forecast serves only the seven explicitly scheduled open dates. Unserved demand in other months is disclosed as potential, not booked revenue. Adding four dates is a separate management decision in Part 2.",
+      "The scheduled-seven-date result is a diagnostic, not a direction to cancel existing events or a complete company revenue forecast.",
+      "The one-month lag is approximate. Current event promotion can convert within the same month; show a no-lag alternative as a timing sensitivity rather than selectively using whichever month produces more seats."
+    ],
+    "noLagMonthlyPotentialSeats": [
+      14.440024479804162,
+      14.056303549571604,
+      13.422464927972886,
+      13.422464927972886,
+      13.377723378212975,
+      11.451040391676868,
+      5.428641370869033,
+      8.932330827067668,
+      17.061444308445534,
+      19.99388004895961,
+      15.286696167969119,
+      11.30966952264382
+    ],
+    "sourceRange": "02 Historical Results and Draft P&L Budget.xlsx / 03 Prior Year Marketing!D7:O12; 07 Draft Operating Costs!D11:O11; 06 Draft Program Plan!B8:R8,B12:R12,B16:R16,B21:R21,B24:R24,B27:R27,B30:R30",
+    "normalAttendanceSource": "01 Company Background and Management Targets.docx ¶13; 05 Operations and Trainer Plan.docx ¶14"
+  },
+  "growthDiagnostics": {
+    "priorCorporateRevenue": 417000,
+    "draftCorporateRevenue": 777500,
+    "corporateGrowth": 360500,
+    "corporateGrowthRate": 0.8645083932853717,
+    "marketingShareOfCorporateGrowth": 0.25,
+    "impliedIncrementalMarketingSupportedCorporateRevenue": 90125,
+    "typicalStandardDealRevenue": 3750,
+    "incrementalEquivalentStandardDeals": 24.033333333333335,
+    "priorOpenRevenue": 111500,
+    "draftOpenRevenue": 212000,
+    "openRevenueGrowthRate": 0.9013452914798206,
+    "minimumDraftSeatsAtHighestCataloguePrice": 353.3333333333333,
+    "minimumOpenDatesAt20SeatsAndHighestPrice": 18,
+    "sources": [
+      "02 Historical Results and Draft P&L Budget.xlsx / 02 Prior Year Sales!P7:P18; 05 Draft Sales Budget!P7:P21",
+      "01 Company Background and Management Targets.docx ¶9,¶13,¶23–31",
+      "03 Sales Director Plan.docx ¶11"
+    ],
+    "interpretation": "Even using only EUR600 seats, draft EUR212,000 requires at least354 paid seats and18 full dates. Existing calendar has seven open dates and a EUR56,000 ceiling at its stated prices. Those are capacity diagnostics; do not replace the catalogue/mix with EUR600 everywhere."
+  },
+  "staffingAndEmploymentCost": {
+    "months": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "salesHeadcount": [
+      4,
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "salesFixedSalary": [
+      7200,
+      7200,
+      5400,
+      5400,
+      7200,
+      7200,
+      7200,
+      7200,
+      7200,
+      7200,
+      7200,
+      7200
+    ],
+    "deliveryCoordinationSalary": [
+      2500,
+      2500,
+      2500,
+      2500,
+      2500,
+      2500,
+      2500,
+      2500,
+      2500,
+      2500,
+      2500,
+      2500
+    ],
+    "administrationSalary": [
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000
+    ],
+    "employerPayrollCost": [
+      2925,
+      2925,
+      2475,
+      2475,
+      2925,
+      2925,
+      2925,
+      2925,
+      2925,
+      2925,
+      2925,
+      2925
+    ],
+    "totalLoadedFixedPayroll": [
+      14625,
+      14625,
+      12375,
+      12375,
+      14625,
+      14625,
+      14625,
+      14625,
+      14625,
+      14625,
+      14625,
+      14625
+    ],
+    "annualSalesSalary": 82800,
+    "annualEmployerPayrollCost": 34200,
+    "annualTotalLoadedPayroll": 171000,
+    "draftAnnualSalesSalary": 86400,
+    "draftAnnualEmployerLoad": 35100,
+    "draftAnnualLoadedPayroll": 175500,
+    "annualP1CorrectionToProfit": 4500,
+    "monthlyCorrectionToProfit": [
+      0,
+      0,
+      2250,
+      2250,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "sources": [
+      "06 HR and Personnel Plan.docx ¶7,¶9,¶11,¶13,¶15,¶18–19",
+      "02 Historical Results and Draft P&L Budget.xlsx / 07 Draft Operating Costs!D7:O10,P7:P10"
+    ],
+    "employmentRules": [
+      "Anna is employed only January and February; no salary or employee sales assumption after28 February. Her existing client files can remain business opportunities, but need a documented handover rather than imaginary continued employment.",
+      "Ella earns salary and employer costs from1 May even while onboarding. May has no assumed selling productivity; June is supervised, July partial, full productivity no earlier than August.",
+      "Mark, Linda and Peter remain employed throughout. Peter has no measured uplift from promised faster response.",
+      "Marketing director Linda Smile is also a named salesperson. Do not add an unsupported separate marketing-director salary to the supplied staff cost base.",
+      "Employer costs25% apply to all supplied fixed salaries. No statutory payroll tax inference is made.",
+      "The EUR4,500 annual reduction is the consequence of existing vacancy dates, not a new management saving to repeat in Part2."
+    ],
+    "illustrativeEllaRamp": {
+      "months": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+      ],
+      "productivity": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.25,
+        0.5,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "basis": "June25% and July50% are explicit conservative assumptions; HR supplies the stages but not percentages. Full-role output should be benchmarked to a supported existing-role run rate and client demand rather than the unsupported draft target.",
+      "source": "06 HR and Personnel Plan.docx ¶15; 03 Sales Director Plan.docx ¶9"
+    },
+    "annaContractorP1": "None. HR explicitly says no existing agreement; any contractor arrangement is a new Part2 decision."
+  },
+  "part2Proposals": [
+    {
+      "id": "MKT04",
+      "decision": "Approve four additional two-day Executive Blame Delegation open dates in February, April, June and December.",
+      "start": "January calendar approval",
+      "monthlyExistingMarketingUnchanged": [
+        5500,
+        5000,
+        5000,
+        4500,
+        4000,
+        3500,
+        2000,
+        3000,
+        5500,
+        6000,
+        5000,
+        3500
+      ],
+      "annualExistingMarketingUnchanged": 52500,
+      "additionalCampaignAndDateSetup": {
+        "month": "Jan",
+        "amount": 1000,
+        "classification": "Additional operating expense; explicit planning allowance, not a vendor quote"
+      },
+      "conversionUpliftAssumed": 0,
+      "additionalEnquiriesAssumed": 0,
+      "additionalDates": [
+        {
+          "month": "Feb",
+          "course": "Executive Blame Delegation",
+          "days": 2,
+          "seats": 14,
+          "price": 600,
+          "revenue": 8400,
+          "instructor": 1400,
+          "venue": 1200,
+          "materials": 420,
+          "commission": 420,
+          "directCosts": 3440,
+          "contribution": 4960,
+          "bookingDecision": "January calendar approval; allow six to eight weeks before delivery for external trainer and room commitments. A February date requires early-January confirmation.",
+          "paidSeatCheckpoint": "At least eight paid seats by four weeks before delivery; expected attendance remains historical-funnel based, not guaranteed.",
+          "source": "01 Company Background and Management Targets.docx ¶13,¶29–31; 03 Sales Director Plan.docx ¶11; 05 Operations and Trainer Plan.docx ¶10,¶14; 07 Finance and Administration Notes.docx ¶5; workbook 06 Draft Program Plan!K16:Q16"
+        },
+        {
+          "month": "Apr",
+          "course": "Executive Blame Delegation",
+          "days": 2,
+          "seats": 13,
+          "price": 600,
+          "revenue": 7800,
+          "instructor": 1400,
+          "venue": 1200,
+          "materials": 390,
+          "commission": 390,
+          "directCosts": 3380,
+          "contribution": 4420,
+          "bookingDecision": "January calendar approval; allow six to eight weeks before delivery for external trainer and room commitments. A February date requires early-January confirmation.",
+          "paidSeatCheckpoint": "At least eight paid seats by four weeks before delivery; expected attendance remains historical-funnel based, not guaranteed.",
+          "source": "01 Company Background and Management Targets.docx ¶13,¶29–31; 03 Sales Director Plan.docx ¶11; 05 Operations and Trainer Plan.docx ¶10,¶14; 07 Finance and Administration Notes.docx ¶5; workbook 06 Draft Program Plan!K16:Q16"
+        },
+        {
+          "month": "Jun",
+          "course": "Executive Blame Delegation",
+          "days": 2,
+          "seats": 13,
+          "price": 600,
+          "revenue": 7800,
+          "instructor": 1400,
+          "venue": 1200,
+          "materials": 390,
+          "commission": 390,
+          "directCosts": 3380,
+          "contribution": 4420,
+          "bookingDecision": "January calendar approval; allow six to eight weeks before delivery for external trainer and room commitments. A February date requires early-January confirmation.",
+          "paidSeatCheckpoint": "At least eight paid seats by four weeks before delivery; expected attendance remains historical-funnel based, not guaranteed.",
+          "source": "01 Company Background and Management Targets.docx ¶13,¶29–31; 03 Sales Director Plan.docx ¶11; 05 Operations and Trainer Plan.docx ¶10,¶14; 07 Finance and Administration Notes.docx ¶5; workbook 06 Draft Program Plan!K16:Q16"
+        },
+        {
+          "month": "Dec",
+          "course": "Executive Blame Delegation",
+          "days": 2,
+          "seats": 15,
+          "price": 600,
+          "revenue": 9000,
+          "instructor": 1540,
+          "venue": 1200,
+          "materials": 450,
+          "commission": 450,
+          "directCosts": 3640,
+          "contribution": 5360,
+          "bookingDecision": "January calendar approval; allow six to eight weeks before delivery for external trainer and room commitments. A February date requires early-January confirmation.",
+          "paidSeatCheckpoint": "At least eight paid seats by four weeks before delivery; expected attendance remains historical-funnel based, not guaranteed.",
+          "source": "01 Company Background and Management Targets.docx ¶13,¶29–31; 03 Sales Director Plan.docx ¶11; 05 Operations and Trainer Plan.docx ¶10,¶14; 07 Finance and Administration Notes.docx ¶5; workbook 06 Draft Program Plan!K16:Q16"
+        }
+      ],
+      "totalAdditionalSeats": 55,
+      "totalAdditionalRevenue": 33000,
+      "totalAdditionalDirectCosts": 13840,
+      "additionalContributionBeforeSetup": 19160,
+      "profitEffectAfterSetupBeforeAnyOtherManagementDecision": 18160,
+      "feasibility": "Capture existing unserved enquiry potential in four months, without assigning the same enquiry cohort to another event. Existing planned seven dates continue in both versions. Allocate eight additional external trainer days and eight room days, price each at EUR600 per seat, and record every event in the management delivery register. Customer willingness to buy this premium offer and January lead time are explicit risks.",
+      "evidence": [
+        "00 Start Here Budget Review Assignment.docx ¶11–12",
+        "01 Company Background and Management Targets.docx ¶13,¶29–31",
+        "04 Marketing Director Plan.docx ¶17–18",
+        "05 Operations and Trainer Plan.docx ¶10,¶14,¶19",
+        "07 Finance and Administration Notes.docx ¶5",
+        "02 Historical Results and Draft P&L Budget.xlsx / 03 Prior Year Marketing!D7:O12; 07 Draft Operating Costs!D11:O11; 06 Draft Program Plan!G16:Q16"
+      ]
+    }
+  ],
+  "materialRisks": [
+    "Funnel cohorts and source attribution are incomplete; no measured budget-to-demand elasticity or conversion uplift exists.",
+    "Anna client retention requires a real owner afterFebruary. Merely deleting her salary does not preserve her sales target.",
+    "Ella productivity stages are known; exact ramp percentages and client wins remain assumptions.",
+    "Autumn spending can generate delivered corporate sales late in the year or2027. December renewal messages mostly benefit next year.",
+    "A full program calendar cannot be derived from annual revenue alone. Demand and delivery constraints must be integrated before P&L revenue is recognised.",
+    "Source catalogue calls the premium open course Executive Blame Delegation; marketing refers to Professional Blame Delegation. Clarify the advertised offer and correct quoted prices without silently inventing a new course.",
+    "The submitted 2026 appropriation already includes website/testimonial/campaign activities. Do not add those as separate automatic Part1 charges without evidence, and do not make them disappear as automatic Part1 savings."
+  ],
+  "recommendation": "Part 1 retains all existing monthly marketing activities and actual staffing dates. Forecast attendance only on the seven existing open dates using a one-month lag and the pooled historical conversion, without a twelve-seat floor or conversion uplift. Part 2 approves four additional dates against unserved demand and includes EUR1,000 setup plus all delivery costs. Revenue remains constrained by paying customers, advance bookings and the delivery calendar.",
+  "independentOptionsNotAdopted": [
+    {
+      "id": "MKT01",
+      "decision": "Track campaign sources and institute weekly qualified-enquiry follow-up with a measured pilot.",
+      "start": "March",
+      "cost": {
+        "oneOffCRMAndTraining": 1000,
+        "month": "Mar",
+        "classification": "Operating expense; proposed allowance, not a supplier quote",
+        "additionalFixedSalary": 0
+      },
+      "resourceEffect": "Assign Linda and Peter half a day each per week during the March–April pilot. Do not also assume their entire selling time remains available; existing salaries already include their time.",
+      "expectedEffect": "Use the historical20.14% corporate and24.24% open conversions until a pilot has evidence. A later planning upper case may use22% corporate and28% open; these lie below observed monthly historical peaks but are untested assumptions. Corporate delivery follows the six-to-eight-week lag.",
+      "contingency": "If pilot evidence fails to improve conversion, retain historical rates and still include the EUR1,000 cost. No guaranteed uplift.",
+      "evidence": [
+        "04 Marketing Director Plan.docx ¶17–18",
+        "03 Sales Director Plan.docx ¶11",
+        "02 Historical Results and Draft P&L Budget.xlsx / 03 Prior Year Marketing!D9:O12"
+      ]
+    },
+    {
+      "id": "MKT02",
+      "decision": "Fund a staged targeted campaign rather than assume better creative produces free growth.",
+      "start": "April",
+      "cost": {
+        "months": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct",
+          "Nov",
+          "Dec"
+        ],
+        "incrementalMonthlyMarketing": [
+          0,
+          0,
+          0,
+          1000,
+          1000,
+          1000,
+          0,
+          1500,
+          1500,
+          1500,
+          0,
+          0
+        ],
+        "incrementalAnnualMarketing": 7500,
+        "newAnnualMarketing": 60000,
+        "classification": "Marketing operating expense; explicit new allowance"
+      },
+      "expectedEffect": {
+        "extraCorporateLeadsAtHistoricalWholeFunnelEfficiency": 32.97709923664122,
+        "extraCorporateWinsAtHistoricalEfficiency": 6.641221374045801,
+        "extraOpenEnquiriesAtHistoricalEfficiency": 93.54961832061069,
+        "extraOpenSeatsAtHistoricalEfficiency": 22.671755725190838
+      },
+      "timing": "April–June spending affects corporate delivery around June–August; August–October spending around October–December. Open conversion may be within four weeks. Do not book all annual incremental wins in April or add an extra revenue channel on top of the same salesperson/program forecast.",
+      "caveat": "Joint historical-funnel scaling assumes a broadly comparable activity mix and efficiency. It is a diagnostic to set campaign objectives, not measured ROI or a supplier guarantee. Final booked effect is limited by customers, dates, staff, room and delivery costs.",
+      "evidence": [
+        "04 Marketing Director Plan.docx ¶9–12",
+        "02 Historical Results and Draft P&L Budget.xlsx / 03 Prior Year Marketing!P7:P12",
+        "03 Sales Director Plan.docx ¶11",
+        "05 Operations and Trainer Plan.docx ¶10,¶14,¶19"
+      ]
+    },
+    {
+      "id": "MKT03",
+      "decision": "Offer Anna a written commission-only client-retention contract after her employment ends.",
+      "start": "1 March, conditional on a signed new agreement",
+      "cost": {
+        "commissionPercent": 0.05,
+        "fixedRetainer": 0,
+        "classification": "Direct selling cost on delivered retained revenue; proposed contract terms"
+      },
+      "expectedEffect": "Preserve part of an evidenced client portfolio through a named handover/contractor owner. Do not assume her entire remaining draft target is retained. Client-specific probability and delivery dates must substantiate revenue.",
+      "warning": "Program plan already includes5% sales commission. For Anna-contracted programs replace or reconcile that existing allowance; do not charge the same5% twice. There is no existing contractor contract in Part1. No fixed salary or case payroll-load assumption is added for the independent contract.",
+      "evidence": [
+        "06 HR and Personnel Plan.docx ¶7,¶19",
+        "03 Sales Director Plan.docx ¶5",
+        "02 Historical Results and Draft P&L Budget.xlsx / 06 Draft Program Plan!Q9,Q11,Q15,Q22,Q28"
+      ]
+    },
+    {
+      "id": "MKT04",
+      "decision": "Specify additional open dates only against a named demand cohort, and concentrate paid promotion on catalogue premium courses with feasible contribution.",
+      "start": "Plan six to eight weeks before each proposed extra date",
+      "cost": "Budget all incremental instructor days, venue EUR600/day, materials EUR15/person/day and5% selling commission shown in the source register. Add specific promotion cost if not covered by the approved marketing appropriation.",
+      "expectedEffect": "At20 seats, a two-day Advanced Micromanagement event generates EUR10,000 and Executive Blame Delegation EUR12,000. Forecast12–20 only where the funnel supports it; do not impose a twelve-seat floor.",
+      "feasibility": "Existing room maximum20. Instructor capacity and external booking lead time must be checked month by month. Historical58 corporate wins and198 open seats are separate products, not interchangeably delivered programs.",
+      "evidence": [
+        "01 Company Background and Management Targets.docx ¶13,¶26–31",
+        "05 Operations and Trainer Plan.docx ¶8,¶10,¶14,¶19",
+        "02 Historical Results and Draft P&L Budget.xlsx / 06 Draft Program Plan!G12:Q12,G16:Q16; 07 Draft Operating Costs!D11:O11"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/", "destination": "/badboss-index.html" },
+    { "source": "/review", "destination": "/badboss-review.html" }
+  ],
+  "headers": [
+    { "source": "/(.*)", "headers": [
+      { "key": "X-Content-Type-Options", "value": "nosniff" },
+      { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+    ] },
+    { "source": "/ea25077-budget-review.xlsx", "headers": [
+      { "key": "Content-Type", "value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" },
+      { "key": "Content-Disposition", "value": "attachment; filename=ea25077-budget-review.xlsx" }
+    ] }
+  ]
+}

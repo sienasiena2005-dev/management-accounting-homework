@@ -1,0 +1,3519 @@
+{
+  "scope": "Independent source and saved-XLSX validation. Native Excel UI was not used.",
+  "summary": {
+    "checks": 528,
+    "passed": 528,
+    "failures": 0
+  },
+  "workbookSha256": "0fd36c5f207eb35975f942532af2fb0ddbd31accbcf8d974c45c17f56f2ad3bc",
+  "checks": [
+    {
+      "check": "Supplied tab names and order retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "00 Read Me original cell values and formulas preserved",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "00 Read Me original merged ranges preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "00 Read Me original freeze panes preserved",
+      "passed": true,
+      "detail": {
+        "source": null,
+        "output": null
+      }
+    },
+    {
+      "check": "00 Read Me original hidden state preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "00 Read Me original conditional formatting count preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "00 Read Me original visible cell styles preserved",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "01 Prior Year P&L original cell values and formulas preserved",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "01 Prior Year P&L original merged ranges preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "01 Prior Year P&L original freeze panes preserved",
+      "passed": true,
+      "detail": {
+        "source": null,
+        "output": null
+      }
+    },
+    {
+      "check": "01 Prior Year P&L original hidden state preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "01 Prior Year P&L original conditional formatting count preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "01 Prior Year P&L original visible cell styles preserved",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "02 Prior Year Sales original cell values and formulas preserved",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "02 Prior Year Sales original merged ranges preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "02 Prior Year Sales original freeze panes preserved",
+      "passed": true,
+      "detail": {
+        "source": "D7",
+        "output": "D7"
+      }
+    },
+    {
+      "check": "02 Prior Year Sales original hidden state preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "02 Prior Year Sales original conditional formatting count preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "02 Prior Year Sales original visible cell styles preserved",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "03 Prior Year Marketing original cell values and formulas preserved",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "03 Prior Year Marketing original merged ranges preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "03 Prior Year Marketing original freeze panes preserved",
+      "passed": true,
+      "detail": {
+        "source": null,
+        "output": null
+      }
+    },
+    {
+      "check": "03 Prior Year Marketing original hidden state preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "03 Prior Year Marketing original conditional formatting count preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "03 Prior Year Marketing original visible cell styles preserved",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "04 Prior Year Programs original cell values and formulas preserved",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "04 Prior Year Programs original merged ranges preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "04 Prior Year Programs original freeze panes preserved",
+      "passed": true,
+      "detail": {
+        "source": null,
+        "output": null
+      }
+    },
+    {
+      "check": "04 Prior Year Programs original hidden state preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "04 Prior Year Programs original conditional formatting count preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "04 Prior Year Programs original visible cell styles preserved",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "05 Draft Sales Budget original cell values and formulas preserved",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "05 Draft Sales Budget original merged ranges preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "05 Draft Sales Budget original freeze panes preserved",
+      "passed": true,
+      "detail": {
+        "source": "D7",
+        "output": "D7"
+      }
+    },
+    {
+      "check": "05 Draft Sales Budget original hidden state preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "05 Draft Sales Budget original conditional formatting count preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "05 Draft Sales Budget original visible cell styles preserved",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "06 Draft Program Plan original cell values and formulas preserved",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "06 Draft Program Plan original merged ranges preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "06 Draft Program Plan original freeze panes preserved",
+      "passed": true,
+      "detail": {
+        "source": "G7",
+        "output": "G7"
+      }
+    },
+    {
+      "check": "06 Draft Program Plan original hidden state preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "06 Draft Program Plan original conditional formatting count preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "06 Draft Program Plan original visible cell styles preserved",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "07 Draft Operating Costs original cell values and formulas preserved",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "07 Draft Operating Costs original merged ranges preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "07 Draft Operating Costs original freeze panes preserved",
+      "passed": true,
+      "detail": {
+        "source": null,
+        "output": null
+      }
+    },
+    {
+      "check": "07 Draft Operating Costs original hidden state preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "07 Draft Operating Costs original conditional formatting count preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "07 Draft Operating Costs original visible cell styles preserved",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "08 Draft P&L original cell values and formulas preserved",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "08 Draft P&L original merged ranges preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "08 Draft P&L original freeze panes preserved",
+      "passed": true,
+      "detail": {
+        "source": null,
+        "output": null
+      }
+    },
+    {
+      "check": "08 Draft P&L original hidden state preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "08 Draft P&L original conditional formatting count preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "08 Draft P&L original visible cell styles preserved",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "08 Draft P&L D7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 55500,
+        "expected": 55500
+      }
+    },
+    {
+      "check": "08 Draft P&L E7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 63000,
+        "expected": 63000
+      }
+    },
+    {
+      "check": "08 Draft P&L F7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 69500,
+        "expected": 69500
+      }
+    },
+    {
+      "check": "08 Draft P&L G7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 80500,
+        "expected": 80500
+      }
+    },
+    {
+      "check": "08 Draft P&L H7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 68000,
+        "expected": 68000
+      }
+    },
+    {
+      "check": "08 Draft P&L I7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 73500,
+        "expected": 73500
+      }
+    },
+    {
+      "check": "08 Draft P&L J7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 60000,
+        "expected": 60000
+      }
+    },
+    {
+      "check": "08 Draft P&L K7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 91500,
+        "expected": 91500
+      }
+    },
+    {
+      "check": "08 Draft P&L L7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 113500,
+        "expected": 113500
+      }
+    },
+    {
+      "check": "08 Draft P&L M7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 124000,
+        "expected": 124000
+      }
+    },
+    {
+      "check": "08 Draft P&L N7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 103500,
+        "expected": 103500
+      }
+    },
+    {
+      "check": "08 Draft P&L O7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 87000,
+        "expected": 87000
+      }
+    },
+    {
+      "check": "08 Draft P&L annual revenue",
+      "passed": true,
+      "detail": {
+        "actual": 989500,
+        "expected": 989500
+      }
+    },
+    {
+      "check": "08 Draft P&L D8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -4000,
+        "expected": -4000.0
+      }
+    },
+    {
+      "check": "08 Draft P&L E8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -5955,
+        "expected": -5955.0
+      }
+    },
+    {
+      "check": "08 Draft P&L F8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -6250,
+        "expected": -6250.0
+      }
+    },
+    {
+      "check": "08 Draft P&L G8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -6152.5,
+        "expected": -6152.5
+      }
+    },
+    {
+      "check": "08 Draft P&L H8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -4805,
+        "expected": -4805.0
+      }
+    },
+    {
+      "check": "08 Draft P&L I8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -8025,
+        "expected": -8025.0
+      }
+    },
+    {
+      "check": "08 Draft P&L J8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -1125,
+        "expected": -1125.0
+      }
+    },
+    {
+      "check": "08 Draft P&L K8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -4550,
+        "expected": -4550.0
+      }
+    },
+    {
+      "check": "08 Draft P&L L8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -13770,
+        "expected": -13770.0
+      }
+    },
+    {
+      "check": "08 Draft P&L M8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -8497.5,
+        "expected": -8497.5
+      }
+    },
+    {
+      "check": "08 Draft P&L N8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -10240,
+        "expected": -10240.0
+      }
+    },
+    {
+      "check": "08 Draft P&L O8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -3825,
+        "expected": -3825.0
+      }
+    },
+    {
+      "check": "08 Draft P&L annual directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -77195,
+        "expected": -77195.0
+      }
+    },
+    {
+      "check": "08 Draft P&L D9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 51500,
+        "expected": 51500.0
+      }
+    },
+    {
+      "check": "08 Draft P&L E9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 57045,
+        "expected": 57045.0
+      }
+    },
+    {
+      "check": "08 Draft P&L F9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 63250,
+        "expected": 63250.0
+      }
+    },
+    {
+      "check": "08 Draft P&L G9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 74347.5,
+        "expected": 74347.5
+      }
+    },
+    {
+      "check": "08 Draft P&L H9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 63195,
+        "expected": 63195.0
+      }
+    },
+    {
+      "check": "08 Draft P&L I9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 65475,
+        "expected": 65475.0
+      }
+    },
+    {
+      "check": "08 Draft P&L J9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 58875,
+        "expected": 58875.0
+      }
+    },
+    {
+      "check": "08 Draft P&L K9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 86950,
+        "expected": 86950.0
+      }
+    },
+    {
+      "check": "08 Draft P&L L9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 99730,
+        "expected": 99730.0
+      }
+    },
+    {
+      "check": "08 Draft P&L M9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 115502.5,
+        "expected": 115502.5
+      }
+    },
+    {
+      "check": "08 Draft P&L N9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 93260,
+        "expected": 93260.0
+      }
+    },
+    {
+      "check": "08 Draft P&L O9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 83175,
+        "expected": 83175.0
+      }
+    },
+    {
+      "check": "08 Draft P&L annual contribution",
+      "passed": true,
+      "detail": {
+        "actual": 912305,
+        "expected": 912305.0
+      }
+    },
+    {
+      "check": "08 Draft P&L D11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -24725,
+        "expected": -24725.0
+      }
+    },
+    {
+      "check": "08 Draft P&L E11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -24225,
+        "expected": -24225.0
+      }
+    },
+    {
+      "check": "08 Draft P&L F11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -24225,
+        "expected": -24225.0
+      }
+    },
+    {
+      "check": "08 Draft P&L G11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -25525,
+        "expected": -25525.0
+      }
+    },
+    {
+      "check": "08 Draft P&L H11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -23225,
+        "expected": -23225.0
+      }
+    },
+    {
+      "check": "08 Draft P&L I11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -22725,
+        "expected": -22725.0
+      }
+    },
+    {
+      "check": "08 Draft P&L J11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -21225,
+        "expected": -21225.0
+      }
+    },
+    {
+      "check": "08 Draft P&L K11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -22225,
+        "expected": -22225.0
+      }
+    },
+    {
+      "check": "08 Draft P&L L11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -24725,
+        "expected": -24725.0
+      }
+    },
+    {
+      "check": "08 Draft P&L M11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -25225,
+        "expected": -25225.0
+      }
+    },
+    {
+      "check": "08 Draft P&L N11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -24225,
+        "expected": -24225.0
+      }
+    },
+    {
+      "check": "08 Draft P&L O11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -22725,
+        "expected": -22725.0
+      }
+    },
+    {
+      "check": "08 Draft P&L annual operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -285000,
+        "expected": -285000.0
+      }
+    },
+    {
+      "check": "08 Draft P&L D12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": 26775,
+        "expected": 26775.0
+      }
+    },
+    {
+      "check": "08 Draft P&L E12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": 32820,
+        "expected": 32820.0
+      }
+    },
+    {
+      "check": "08 Draft P&L F12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": 39025,
+        "expected": 39025.0
+      }
+    },
+    {
+      "check": "08 Draft P&L G12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": 48822.5,
+        "expected": 48822.5
+      }
+    },
+    {
+      "check": "08 Draft P&L H12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": 39970,
+        "expected": 39970.0
+      }
+    },
+    {
+      "check": "08 Draft P&L I12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": 42750,
+        "expected": 42750.0
+      }
+    },
+    {
+      "check": "08 Draft P&L J12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": 37650,
+        "expected": 37650.0
+      }
+    },
+    {
+      "check": "08 Draft P&L K12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": 64725,
+        "expected": 64725.0
+      }
+    },
+    {
+      "check": "08 Draft P&L L12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": 75005,
+        "expected": 75005.0
+      }
+    },
+    {
+      "check": "08 Draft P&L M12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": 90277.5,
+        "expected": 90277.5
+      }
+    },
+    {
+      "check": "08 Draft P&L N12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": 69035,
+        "expected": 69035.0
+      }
+    },
+    {
+      "check": "08 Draft P&L O12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": 60450,
+        "expected": 60450.0
+      }
+    },
+    {
+      "check": "08 Draft P&L annual operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": 627305,
+        "expected": 627305.0
+      }
+    },
+    {
+      "check": "08 Draft P&L annual weighted contributionMargin",
+      "passed": true,
+      "detail": {
+        "actual": 0.9219858514401212,
+        "expected": 0.9219858514401212
+      }
+    },
+    {
+      "check": "08 Draft P&L annual weighted operatingMargin",
+      "passed": true,
+      "detail": {
+        "actual": 0.6339615967660435,
+        "expected": 0.6339615967660435
+      }
+    },
+    {
+      "check": "10 Corrected Budget D7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 39800,
+        "expected": 39800
+      }
+    },
+    {
+      "check": "10 Corrected Budget E7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 40200,
+        "expected": 40200
+      }
+    },
+    {
+      "check": "10 Corrected Budget F7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 34500,
+        "expected": 34500
+      }
+    },
+    {
+      "check": "10 Corrected Budget G7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 32500,
+        "expected": 32500
+      }
+    },
+    {
+      "check": "10 Corrected Budget H7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 32800,
+        "expected": 32800
+      }
+    },
+    {
+      "check": "10 Corrected Budget I7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 20000,
+        "expected": 20000
+      }
+    },
+    {
+      "check": "10 Corrected Budget J7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 11250,
+        "expected": 11250.0
+      }
+    },
+    {
+      "check": "10 Corrected Budget K7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 28500,
+        "expected": 28500
+      }
+    },
+    {
+      "check": "10 Corrected Budget L7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 52700,
+        "expected": 52700
+      }
+    },
+    {
+      "check": "10 Corrected Budget M7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 58500,
+        "expected": 58500
+      }
+    },
+    {
+      "check": "10 Corrected Budget N7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 33800,
+        "expected": 33800
+      }
+    },
+    {
+      "check": "10 Corrected Budget O7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 30000,
+        "expected": 30000
+      }
+    },
+    {
+      "check": "10 Corrected Budget annual revenue",
+      "passed": true,
+      "detail": {
+        "actual": 414550,
+        "expected": 414550.0
+      }
+    },
+    {
+      "check": "10 Corrected Budget D8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -21280,
+        "expected": -21280.0
+      }
+    },
+    {
+      "check": "10 Corrected Budget E8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -20890.9375,
+        "expected": -20890.9375
+      }
+    },
+    {
+      "check": "10 Corrected Budget F8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -18140.3125,
+        "expected": -18140.3125
+      }
+    },
+    {
+      "check": "10 Corrected Budget G8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -17259.40625,
+        "expected": -17259.40625
+      }
+    },
+    {
+      "check": "10 Corrected Budget H8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -16725.3125,
+        "expected": -16725.3125
+      }
+    },
+    {
+      "check": "10 Corrected Budget I8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -9925.9375,
+        "expected": -9925.9375
+      }
+    },
+    {
+      "check": "10 Corrected Budget J8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -6192.34375,
+        "expected": -6192.34375
+      }
+    },
+    {
+      "check": "10 Corrected Budget K8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -17235.3125,
+        "expected": -17235.3125
+      }
+    },
+    {
+      "check": "10 Corrected Budget L8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -29280.9375,
+        "expected": -29280.9375
+      }
+    },
+    {
+      "check": "10 Corrected Budget M8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -31859.11875,
+        "expected": -31859.118749999998
+      }
+    },
+    {
+      "check": "10 Corrected Budget N8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -17602.725,
+        "expected": -17602.725
+      }
+    },
+    {
+      "check": "10 Corrected Budget O8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -16885.3125,
+        "expected": -16885.3125
+      }
+    },
+    {
+      "check": "10 Corrected Budget annual directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -223277.65625,
+        "expected": -223277.65625
+      }
+    },
+    {
+      "check": "10 Corrected Budget D9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 18520,
+        "expected": 18520.0
+      }
+    },
+    {
+      "check": "10 Corrected Budget E9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 19309.0625,
+        "expected": 19309.0625
+      }
+    },
+    {
+      "check": "10 Corrected Budget F9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 16359.6875,
+        "expected": 16359.6875
+      }
+    },
+    {
+      "check": "10 Corrected Budget G9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 15240.59375,
+        "expected": 15240.59375
+      }
+    },
+    {
+      "check": "10 Corrected Budget H9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 16074.6875,
+        "expected": 16074.6875
+      }
+    },
+    {
+      "check": "10 Corrected Budget I9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 10074.0625,
+        "expected": 10074.0625
+      }
+    },
+    {
+      "check": "10 Corrected Budget J9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 5057.65625,
+        "expected": 5057.65625
+      }
+    },
+    {
+      "check": "10 Corrected Budget K9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 11264.6875,
+        "expected": 11264.6875
+      }
+    },
+    {
+      "check": "10 Corrected Budget L9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 23419.0625,
+        "expected": 23419.0625
+      }
+    },
+    {
+      "check": "10 Corrected Budget M9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 26640.88125,
+        "expected": 26640.881250000002
+      }
+    },
+    {
+      "check": "10 Corrected Budget N9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 16197.275000000001,
+        "expected": 16197.275000000001
+      }
+    },
+    {
+      "check": "10 Corrected Budget O9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 13114.6875,
+        "expected": 13114.6875
+      }
+    },
+    {
+      "check": "10 Corrected Budget annual contribution",
+      "passed": true,
+      "detail": {
+        "actual": 191272.34375,
+        "expected": 191272.34375
+      }
+    },
+    {
+      "check": "10 Corrected Budget D11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -24875,
+        "expected": -24875.0
+      }
+    },
+    {
+      "check": "10 Corrected Budget E11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -24375,
+        "expected": -24375.0
+      }
+    },
+    {
+      "check": "10 Corrected Budget F11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -22125,
+        "expected": -22125.0
+      }
+    },
+    {
+      "check": "10 Corrected Budget G11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -21625,
+        "expected": -21625.0
+      }
+    },
+    {
+      "check": "10 Corrected Budget H11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -23791.666666666668,
+        "expected": -23791.666666666668
+      }
+    },
+    {
+      "check": "10 Corrected Budget I11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -23291.666666666668,
+        "expected": -23291.666666666668
+      }
+    },
+    {
+      "check": "10 Corrected Budget J11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -21791.666666666668,
+        "expected": -21791.666666666668
+      }
+    },
+    {
+      "check": "10 Corrected Budget K11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -22791.666666666668,
+        "expected": -22791.666666666668
+      }
+    },
+    {
+      "check": "10 Corrected Budget L11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -25291.666666666668,
+        "expected": -25291.666666666668
+      }
+    },
+    {
+      "check": "10 Corrected Budget M11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -25791.666666666668,
+        "expected": -25791.666666666668
+      }
+    },
+    {
+      "check": "10 Corrected Budget N11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -24791.666666666668,
+        "expected": -24791.666666666668
+      }
+    },
+    {
+      "check": "10 Corrected Budget O11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -23291.666666666668,
+        "expected": -23291.666666666668
+      }
+    },
+    {
+      "check": "10 Corrected Budget annual operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -283833.3333333333,
+        "expected": -283833.3333333334
+      }
+    },
+    {
+      "check": "10 Corrected Budget D12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": -6355,
+        "expected": -6355.0
+      }
+    },
+    {
+      "check": "10 Corrected Budget E12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": -5065.9375,
+        "expected": -5065.9375
+      }
+    },
+    {
+      "check": "10 Corrected Budget F12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": -5765.3125,
+        "expected": -5765.3125
+      }
+    },
+    {
+      "check": "10 Corrected Budget G12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": -6384.40625,
+        "expected": -6384.40625
+      }
+    },
+    {
+      "check": "10 Corrected Budget H12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": -7716.979166666668,
+        "expected": -7716.979166666668
+      }
+    },
+    {
+      "check": "10 Corrected Budget I12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": -13217.604166666668,
+        "expected": -13217.604166666668
+      }
+    },
+    {
+      "check": "10 Corrected Budget J12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": -16734.010416666668,
+        "expected": -16734.010416666668
+      }
+    },
+    {
+      "check": "10 Corrected Budget K12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": -11526.979166666668,
+        "expected": -11526.979166666668
+      }
+    },
+    {
+      "check": "10 Corrected Budget L12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": -1872.6041666666679,
+        "expected": -1872.6041666666679
+      }
+    },
+    {
+      "check": "10 Corrected Budget M12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": 849.2145833333307,
+        "expected": 849.2145833333343
+      }
+    },
+    {
+      "check": "10 Corrected Budget N12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": -8594.391666666666,
+        "expected": -8594.391666666666
+      }
+    },
+    {
+      "check": "10 Corrected Budget O12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": -10176.979166666668,
+        "expected": -10176.979166666668
+      }
+    },
+    {
+      "check": "10 Corrected Budget annual operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": -92560.98958333334,
+        "expected": -92560.98958333334
+      }
+    },
+    {
+      "check": "10 Corrected Budget D14 trainerDays",
+      "passed": true,
+      "detail": {
+        "actual": 15.8,
+        "expected": 15.8
+      }
+    },
+    {
+      "check": "10 Corrected Budget E14 trainerDays",
+      "passed": true,
+      "detail": {
+        "actual": 14,
+        "expected": 14.0
+      }
+    },
+    {
+      "check": "10 Corrected Budget F14 trainerDays",
+      "passed": true,
+      "detail": {
+        "actual": 13,
+        "expected": 13.0
+      }
+    },
+    {
+      "check": "10 Corrected Budget G14 trainerDays",
+      "passed": true,
+      "detail": {
+        "actual": 11.18,
+        "expected": 11.18
+      }
+    },
+    {
+      "check": "10 Corrected Budget H14 trainerDays",
+      "passed": true,
+      "detail": {
+        "actual": 12,
+        "expected": 12.0
+      }
+    },
+    {
+      "check": "10 Corrected Budget I14 trainerDays",
+      "passed": true,
+      "detail": {
+        "actual": 5.4,
+        "expected": 5.4
+      }
+    },
+    {
+      "check": "10 Corrected Budget J14 trainerDays",
+      "passed": true,
+      "detail": {
+        "actual": 4.5,
+        "expected": 4.5
+      }
+    },
+    {
+      "check": "10 Corrected Budget K14 trainerDays",
+      "passed": true,
+      "detail": {
+        "actual": 12,
+        "expected": 12.0
+      }
+    },
+    {
+      "check": "10 Corrected Budget L14 trainerDays",
+      "passed": true,
+      "detail": {
+        "actual": 17,
+        "expected": 17.0
+      }
+    },
+    {
+      "check": "10 Corrected Budget M14 trainerDays",
+      "passed": true,
+      "detail": {
+        "actual": 21.22,
+        "expected": 21.22
+      }
+    },
+    {
+      "check": "10 Corrected Budget N14 trainerDays",
+      "passed": true,
+      "detail": {
+        "actual": 9.879999999999999,
+        "expected": 9.879999999999999
+      }
+    },
+    {
+      "check": "10 Corrected Budget O14 trainerDays",
+      "passed": true,
+      "detail": {
+        "actual": 12,
+        "expected": 12.0
+      }
+    },
+    {
+      "check": "10 Corrected Budget annual trainerDays",
+      "passed": true,
+      "detail": {
+        "actual": 147.98,
+        "expected": 147.98
+      }
+    },
+    {
+      "check": "10 Corrected Budget D15 openSeats",
+      "passed": true,
+      "detail": {
+        "actual": 14,
+        "expected": 14
+      }
+    },
+    {
+      "check": "10 Corrected Budget E15 openSeats",
+      "passed": true,
+      "detail": {
+        "actual": 0,
+        "expected": 0
+      }
+    },
+    {
+      "check": "10 Corrected Budget F15 openSeats",
+      "passed": true,
+      "detail": {
+        "actual": 14,
+        "expected": 14
+      }
+    },
+    {
+      "check": "10 Corrected Budget G15 openSeats",
+      "passed": true,
+      "detail": {
+        "actual": 0,
+        "expected": 0
+      }
+    },
+    {
+      "check": "10 Corrected Budget H15 openSeats",
+      "passed": true,
+      "detail": {
+        "actual": 13,
+        "expected": 13
+      }
+    },
+    {
+      "check": "10 Corrected Budget I15 openSeats",
+      "passed": true,
+      "detail": {
+        "actual": 0,
+        "expected": 0
+      }
+    },
+    {
+      "check": "10 Corrected Budget J15 openSeats",
+      "passed": true,
+      "detail": {
+        "actual": 0,
+        "expected": 0
+      }
+    },
+    {
+      "check": "10 Corrected Budget K15 openSeats",
+      "passed": true,
+      "detail": {
+        "actual": 5,
+        "expected": 5
+      }
+    },
+    {
+      "check": "10 Corrected Budget L15 openSeats",
+      "passed": true,
+      "detail": {
+        "actual": 8,
+        "expected": 8
+      }
+    },
+    {
+      "check": "10 Corrected Budget M15 openSeats",
+      "passed": true,
+      "detail": {
+        "actual": 17,
+        "expected": 17
+      }
+    },
+    {
+      "check": "10 Corrected Budget N15 openSeats",
+      "passed": true,
+      "detail": {
+        "actual": 19,
+        "expected": 19
+      }
+    },
+    {
+      "check": "10 Corrected Budget O15 openSeats",
+      "passed": true,
+      "detail": {
+        "actual": 0,
+        "expected": 0
+      }
+    },
+    {
+      "check": "10 Corrected Budget annual openSeats",
+      "passed": true,
+      "detail": {
+        "actual": 90,
+        "expected": 90
+      }
+    },
+    {
+      "check": "10 Corrected Budget annual weighted contributionMargin",
+      "passed": true,
+      "detail": {
+        "actual": 0.4613975244240743,
+        "expected": 0.4613975244240743
+      }
+    },
+    {
+      "check": "10 Corrected Budget annual weighted operatingMargin",
+      "passed": true,
+      "detail": {
+        "actual": -0.22328064065452502,
+        "expected": -0.22328064065452502
+      }
+    },
+    {
+      "check": "12 Management Budget D7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 39800,
+        "expected": 39800
+      }
+    },
+    {
+      "check": "12 Management Budget E7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 48600,
+        "expected": 48600
+      }
+    },
+    {
+      "check": "12 Management Budget F7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 38500,
+        "expected": 38500.0
+      }
+    },
+    {
+      "check": "12 Management Budget G7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 47300,
+        "expected": 47300.0
+      }
+    },
+    {
+      "check": "12 Management Budget H7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 35800,
+        "expected": 35800.0
+      }
+    },
+    {
+      "check": "12 Management Budget I7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 28800,
+        "expected": 28800.0
+      }
+    },
+    {
+      "check": "12 Management Budget J7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 11750,
+        "expected": 11750.0
+      }
+    },
+    {
+      "check": "12 Management Budget K7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 28500,
+        "expected": 28500.0
+      }
+    },
+    {
+      "check": "12 Management Budget L7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 52700,
+        "expected": 52700.0
+      }
+    },
+    {
+      "check": "12 Management Budget M7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 58500,
+        "expected": 58500.0
+      }
+    },
+    {
+      "check": "12 Management Budget N7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 33800,
+        "expected": 33800.0
+      }
+    },
+    {
+      "check": "12 Management Budget O7 revenue",
+      "passed": true,
+      "detail": {
+        "actual": 39000,
+        "expected": 39000.0
+      }
+    },
+    {
+      "check": "12 Management Budget annual revenue",
+      "passed": true,
+      "detail": {
+        "actual": 463050,
+        "expected": 463050.0
+      }
+    },
+    {
+      "check": "12 Management Budget D8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -21280,
+        "expected": -21280.0
+      }
+    },
+    {
+      "check": "12 Management Budget E8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -24330.9375,
+        "expected": -24330.9375
+      }
+    },
+    {
+      "check": "12 Management Budget F8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -15637.8125,
+        "expected": -15637.8125
+      }
+    },
+    {
+      "check": "12 Management Budget G8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -19666.28125,
+        "expected": -19666.28125
+      }
+    },
+    {
+      "check": "12 Management Budget H8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -13504.6875,
+        "expected": -13504.6875
+      }
+    },
+    {
+      "check": "12 Management Budget I8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -9901.5625,
+        "expected": -9901.5625
+      }
+    },
+    {
+      "check": "12 Management Budget J8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -4172.90625,
+        "expected": -4172.90625
+      }
+    },
+    {
+      "check": "12 Management Budget K8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -13740.3125,
+        "expected": -13740.3125
+      }
+    },
+    {
+      "check": "12 Management Budget L8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -23060.9375,
+        "expected": -23060.9375
+      }
+    },
+    {
+      "check": "12 Management Budget M8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -24869.11875,
+        "expected": -24869.118749999998
+      }
+    },
+    {
+      "check": "12 Management Budget N8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -12097.624999999998,
+        "expected": -12097.625
+      }
+    },
+    {
+      "check": "12 Management Budget O8 directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -14700.3125,
+        "expected": -14700.3125
+      }
+    },
+    {
+      "check": "12 Management Budget annual directCosts",
+      "passed": true,
+      "detail": {
+        "actual": -196962.49375,
+        "expected": -196962.49375
+      }
+    },
+    {
+      "check": "12 Management Budget D9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 18520,
+        "expected": 18520.0
+      }
+    },
+    {
+      "check": "12 Management Budget E9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 24269.0625,
+        "expected": 24269.0625
+      }
+    },
+    {
+      "check": "12 Management Budget F9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 22862.1875,
+        "expected": 22862.1875
+      }
+    },
+    {
+      "check": "12 Management Budget G9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 27633.71875,
+        "expected": 27633.71875
+      }
+    },
+    {
+      "check": "12 Management Budget H9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 22295.3125,
+        "expected": 22295.3125
+      }
+    },
+    {
+      "check": "12 Management Budget I9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 18898.4375,
+        "expected": 18898.4375
+      }
+    },
+    {
+      "check": "12 Management Budget J9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 7577.09375,
+        "expected": 7577.09375
+      }
+    },
+    {
+      "check": "12 Management Budget K9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 14759.6875,
+        "expected": 14759.6875
+      }
+    },
+    {
+      "check": "12 Management Budget L9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 29639.0625,
+        "expected": 29639.0625
+      }
+    },
+    {
+      "check": "12 Management Budget M9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 33630.88125,
+        "expected": 33630.881250000006
+      }
+    },
+    {
+      "check": "12 Management Budget N9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 21702.375,
+        "expected": 21702.375
+      }
+    },
+    {
+      "check": "12 Management Budget O9 contribution",
+      "passed": true,
+      "detail": {
+        "actual": 24299.6875,
+        "expected": 24299.6875
+      }
+    },
+    {
+      "check": "12 Management Budget annual contribution",
+      "passed": true,
+      "detail": {
+        "actual": 266087.50625,
+        "expected": 266087.50625
+      }
+    },
+    {
+      "check": "12 Management Budget D11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -25875,
+        "expected": -25875.0
+      }
+    },
+    {
+      "check": "12 Management Budget E11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -25375,
+        "expected": -25375.0
+      }
+    },
+    {
+      "check": "12 Management Budget F11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -22125,
+        "expected": -22125.0
+      }
+    },
+    {
+      "check": "12 Management Budget G11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -21625,
+        "expected": -21625.0
+      }
+    },
+    {
+      "check": "12 Management Budget H11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -23791.666666666668,
+        "expected": -23791.666666666668
+      }
+    },
+    {
+      "check": "12 Management Budget I11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -23291.666666666668,
+        "expected": -23291.666666666668
+      }
+    },
+    {
+      "check": "12 Management Budget J11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -21791.666666666668,
+        "expected": -21791.666666666668
+      }
+    },
+    {
+      "check": "12 Management Budget K11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -22791.666666666668,
+        "expected": -22791.666666666668
+      }
+    },
+    {
+      "check": "12 Management Budget L11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -25291.666666666668,
+        "expected": -25291.666666666668
+      }
+    },
+    {
+      "check": "12 Management Budget M11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -25791.666666666668,
+        "expected": -25791.666666666668
+      }
+    },
+    {
+      "check": "12 Management Budget N11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -24791.666666666668,
+        "expected": -24791.666666666668
+      }
+    },
+    {
+      "check": "12 Management Budget O11 operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -23291.666666666668,
+        "expected": -23291.666666666668
+      }
+    },
+    {
+      "check": "12 Management Budget annual operatingExpenses",
+      "passed": true,
+      "detail": {
+        "actual": -285833.3333333333,
+        "expected": -285833.3333333334
+      }
+    },
+    {
+      "check": "12 Management Budget D12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": -7355,
+        "expected": -7355.0
+      }
+    },
+    {
+      "check": "12 Management Budget E12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": -1105.9375,
+        "expected": -1105.9375
+      }
+    },
+    {
+      "check": "12 Management Budget F12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": 737.1875,
+        "expected": 737.1875
+      }
+    },
+    {
+      "check": "12 Management Budget G12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": 6008.71875,
+        "expected": 6008.71875
+      }
+    },
+    {
+      "check": "12 Management Budget H12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": -1496.3541666666679,
+        "expected": -1496.3541666666679
+      }
+    },
+    {
+      "check": "12 Management Budget I12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": -4393.229166666668,
+        "expected": -4393.229166666668
+      }
+    },
+    {
+      "check": "12 Management Budget J12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": -14214.572916666668,
+        "expected": -14214.572916666668
+      }
+    },
+    {
+      "check": "12 Management Budget K12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": -8031.979166666668,
+        "expected": -8031.979166666668
+      }
+    },
+    {
+      "check": "12 Management Budget L12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": 4347.395833333332,
+        "expected": 4347.395833333332
+      }
+    },
+    {
+      "check": "12 Management Budget M12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": 7839.214583333331,
+        "expected": 7839.214583333338
+      }
+    },
+    {
+      "check": "12 Management Budget N12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": -3089.291666666668,
+        "expected": -3089.291666666668
+      }
+    },
+    {
+      "check": "12 Management Budget O12 operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": 1008.0208333333321,
+        "expected": 1008.0208333333321
+      }
+    },
+    {
+      "check": "12 Management Budget annual operatingProfit",
+      "passed": true,
+      "detail": {
+        "actual": -19745.827083333344,
+        "expected": -19745.827083333337
+      }
+    },
+    {
+      "check": "12 Management Budget D14 trainerDays",
+      "passed": true,
+      "detail": {
+        "actual": 15.8,
+        "expected": 15.8
+      }
+    },
+    {
+      "check": "12 Management Budget E14 trainerDays",
+      "passed": true,
+      "detail": {
+        "actual": 16,
+        "expected": 16.0
+      }
+    },
+    {
+      "check": "12 Management Budget F14 trainerDays",
+      "passed": true,
+      "detail": {
+        "actual": 14.6,
+        "expected": 14.6
+      }
+    },
+    {
+      "check": "12 Management Budget G14 trainerDays",
+      "passed": true,
+      "detail": {
+        "actual": 15.98,
+        "expected": 15.98
+      }
+    },
+    {
+      "check": "12 Management Budget H14 trainerDays",
+      "passed": true,
+      "detail": {
+        "actual": 13.2,
+        "expected": 13.2
+      }
+    },
+    {
+      "check": "12 Management Budget I14 trainerDays",
+      "passed": true,
+      "detail": {
+        "actual": 7.800000000000001,
+        "expected": 7.800000000000001
+      }
+    },
+    {
+      "check": "12 Management Budget J14 trainerDays",
+      "passed": true,
+      "detail": {
+        "actual": 4.7,
+        "expected": 4.7
+      }
+    },
+    {
+      "check": "12 Management Budget K14 trainerDays",
+      "passed": true,
+      "detail": {
+        "actual": 12,
+        "expected": 12.0
+      }
+    },
+    {
+      "check": "12 Management Budget L14 trainerDays",
+      "passed": true,
+      "detail": {
+        "actual": 17,
+        "expected": 17.0
+      }
+    },
+    {
+      "check": "12 Management Budget M14 trainerDays",
+      "passed": true,
+      "detail": {
+        "actual": 21.22,
+        "expected": 21.22
+      }
+    },
+    {
+      "check": "12 Management Budget N14 trainerDays",
+      "passed": true,
+      "detail": {
+        "actual": 9.879999999999999,
+        "expected": 9.879999999999999
+      }
+    },
+    {
+      "check": "12 Management Budget O14 trainerDays",
+      "passed": true,
+      "detail": {
+        "actual": 14,
+        "expected": 14.0
+      }
+    },
+    {
+      "check": "12 Management Budget annual trainerDays",
+      "passed": true,
+      "detail": {
+        "actual": 162.18,
+        "expected": 162.18
+      }
+    },
+    {
+      "check": "12 Management Budget D15 openSeats",
+      "passed": true,
+      "detail": {
+        "actual": 14,
+        "expected": 14
+      }
+    },
+    {
+      "check": "12 Management Budget E15 openSeats",
+      "passed": true,
+      "detail": {
+        "actual": 14,
+        "expected": 14
+      }
+    },
+    {
+      "check": "12 Management Budget F15 openSeats",
+      "passed": true,
+      "detail": {
+        "actual": 14,
+        "expected": 14
+      }
+    },
+    {
+      "check": "12 Management Budget G15 openSeats",
+      "passed": true,
+      "detail": {
+        "actual": 13,
+        "expected": 13
+      }
+    },
+    {
+      "check": "12 Management Budget H15 openSeats",
+      "passed": true,
+      "detail": {
+        "actual": 13,
+        "expected": 13
+      }
+    },
+    {
+      "check": "12 Management Budget I15 openSeats",
+      "passed": true,
+      "detail": {
+        "actual": 13,
+        "expected": 13
+      }
+    },
+    {
+      "check": "12 Management Budget J15 openSeats",
+      "passed": true,
+      "detail": {
+        "actual": 0,
+        "expected": 0
+      }
+    },
+    {
+      "check": "12 Management Budget K15 openSeats",
+      "passed": true,
+      "detail": {
+        "actual": 5,
+        "expected": 5
+      }
+    },
+    {
+      "check": "12 Management Budget L15 openSeats",
+      "passed": true,
+      "detail": {
+        "actual": 8,
+        "expected": 8
+      }
+    },
+    {
+      "check": "12 Management Budget M15 openSeats",
+      "passed": true,
+      "detail": {
+        "actual": 17,
+        "expected": 17
+      }
+    },
+    {
+      "check": "12 Management Budget N15 openSeats",
+      "passed": true,
+      "detail": {
+        "actual": 19,
+        "expected": 19
+      }
+    },
+    {
+      "check": "12 Management Budget O15 openSeats",
+      "passed": true,
+      "detail": {
+        "actual": 15,
+        "expected": 15
+      }
+    },
+    {
+      "check": "12 Management Budget annual openSeats",
+      "passed": true,
+      "detail": {
+        "actual": 145,
+        "expected": 145
+      }
+    },
+    {
+      "check": "12 Management Budget annual weighted contributionMargin",
+      "passed": true,
+      "detail": {
+        "actual": 0.5746409809955728,
+        "expected": 0.5746409809955728
+      }
+    },
+    {
+      "check": "12 Management Budget annual weighted operatingMargin",
+      "passed": true,
+      "detail": {
+        "actual": -0.042642969621711144,
+        "expected": -0.04264296962171113
+      }
+    },
+    {
+      "check": "Linked comparison D7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison E7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison F7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison G7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison H7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison I7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison J7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison K7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison L7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison M7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison N7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison O7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison P7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison D8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison E8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison F8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison G8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison H8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison I8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison J8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison K8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison L8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison M8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison N8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison O8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison P8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison D9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison E9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison F9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison G9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison H9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison I9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison J9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison K9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison L9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison M9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison N9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison O9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison P9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison D11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison E11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison F11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison G11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison H11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison I11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison J11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison K11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison L11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison M11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison N11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison O11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison P11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison D12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison E12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison F12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison G12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison H12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison I12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison J12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison K12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison L12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison M12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison N12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison O12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison P12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison D13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison E13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison F13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison G13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison H13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison I13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison J13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison K13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison L13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison M13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison N13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison O13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison P13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison D15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison E15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison F15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison G15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison H15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison I15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison J15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison K15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison L15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison M15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison N15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison O15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison P15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison D16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison E16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison F16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison G16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison H16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison I16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison J16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison K16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison L16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison M16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison N16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison O16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison P16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison D17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison E17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison F17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison G17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison H17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison I17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison J17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison K17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison L17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison M17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison N17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison O17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison P17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison D19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison E19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison F19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison G19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison H19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison I19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison J19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison K19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison L19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison M19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison N19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison O19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison P19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison D20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison E20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison F20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison G20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison H20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison I20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison J20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison K20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison L20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison M20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison N20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison O20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison P20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison D21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison E21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison F21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison G21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison H21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison I21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison J21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison K21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison L21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison M21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison N21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison O21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison P21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison D23",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison E23",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison F23",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison G23",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison H23",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison I23",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison J23",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison K23",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison L23",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison M23",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison N23",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison O23",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison P23",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison D24",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison E24",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison F24",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison G24",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison H24",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison I24",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison J24",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison K24",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison L24",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison M24",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison N24",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison O24",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison P24",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison D25",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison E25",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison F25",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison G25",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison H25",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison I25",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison J25",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison K25",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison L25",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison M25",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison N25",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison O25",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked comparison P25",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No spreadsheet error values",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Annual additional assistant peak uses maximum concurrent people",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Annual total assistant peak includes regular assistant",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Final board recommendation ends management worksheet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10 Corrected Budget row7 live monthly formulas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10 Corrected Budget row8 live monthly formulas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10 Corrected Budget row11 live monthly formulas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10 Corrected Budget row14 live monthly formulas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10 Corrected Budget row15 live monthly formulas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "12 Management Budget row7 live monthly formulas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "12 Management Budget row8 live monthly formulas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "12 Management Budget row11 live monthly formulas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "12 Management Budget row14 live monthly formulas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "12 Management Budget row15 live monthly formulas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Twenty evidence reviews completed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Student name present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Student identifier present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original file copied exactly: 00 Start Here Budget Review Assignment.docx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original file copied exactly: 01 Company Background and Management Targets.docx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original file copied exactly: 02 Historical Results and Draft P&L Budget.xlsx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original file copied exactly: 03 Sales Director Plan.docx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original file copied exactly: 04 Marketing Director Plan.docx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original file copied exactly: 05 Operations and Trainer Plan.docx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original file copied exactly: 06 HR and Personnel Plan.docx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original file copied exactly: 07 Finance and Administration Notes.docx",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "nativeCalculationVerification": {
+    "engine": "@oai/artifact-tool",
+    "monthlyNumericControls": 180,
+    "mismatches": 0,
+    "inputTests": [
+      {
+        "driver": "July fee",
+        "cell": "J9",
+        "before": 770.0000000000001,
+        "after": 840,
+        "part1ProfitChange": -315,
+        "part2ProfitChange": -49,
+        "responds": true
+      },
+      {
+        "driver": "May headcount",
+        "cell": "H7",
+        "before": 4,
+        "after": 3,
+        "part1ProfitChange": 2250,
+        "part2ProfitChange": 2250,
+        "responds": true
+      },
+      {
+        "driver": "August Ella ramp",
+        "cell": "K8",
+        "before": 1,
+        "after": 0.5,
+        "part1ProfitChange": -1072.1875,
+        "part2ProfitChange": -693.3125,
+        "responds": true
+      },
+      {
+        "driver": "Open conversion factor",
+        "cell": "D47",
+        "before": 1,
+        "after": 1.1,
+        "part1ProfitChange": 2320,
+        "part2ProfitChange": 4480,
+        "responds": true
+      },
+      {
+        "driver": "Anna recovery",
+        "cell": "D41",
+        "before": 0.4,
+        "after": 0.5,
+        "part1ProfitChange": 0,
+        "part2ProfitChange": 1624.390625,
+        "responds": true
+      }
+    ],
+    "bridgeDifferences": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "formulaErrorScan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+  },
+  "assignmentAuditFile": "badboss-completeness.json"
+}

@@ -1,0 +1,1064 @@
+{
+  "role": "Independent sales review from original evidence; no original workbook mutation",
+  "student": {
+    "name": "Elina Abdulmuslimova",
+    "studentId": "ea25077"
+  },
+  "currency": "EUR excluding VAT",
+  "months": [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ],
+  "scope": "Sales evidence, Part 1 corporate forecast and open-demand controls, Part 2 sales proposals. Final open forecast and total P&L require marketing/delivery integration.",
+  "evidence": [
+    {
+      "file": "00 Start Here Budget Review Assignment.docx",
+      "paragraphs": [
+        {
+          "paragraph": 1,
+          "text": "Budget review and management decisions"
+        },
+        {
+          "paragraph": 2,
+          "text": "Day 3 homework for Bad Boss Business School"
+        },
+        {
+          "paragraph": 3,
+          "text": "You are the new management team. The directors have submitted a 2026 profit and loss budget, but they prepared their plans separately. Your job is to show what their existing decisions are likely to produce, then decide how to improve the business. This is a fictional case. Work in EUR excluding VAT, by month from January to December, with annual totals."
+        },
+        {
+          "paragraph": 4,
+          "text": "Read the evidence"
+        },
+        {
+          "paragraph": 5,
+          "text": "Read 01 Company Background and Management Targets, then open 02 Historical Results and Draft P&L Budget.xlsx. Read 00 Read Me and sheets 01–08. Read the five directors’ notes, documents 03–07, alongside the workbook. Keep the original data and draft budget unchanged."
+        },
+        {
+          "paragraph": 6,
+          "text": "Part 1 Red pencil correction"
+        },
+        {
+          "paragraph": 7,
+          "text": "What would the result be if management kept its existing decisions? Correct the submitted estimates using the evidence in the documents. Keep the existing staffing dates, marketing activities, delivery resources and commitments. Record the monthly sales, direct costs, operating expenses and profit or loss that these plans can reasonably support."
+        },
+        {
+          "paragraph": 8,
+          "text": "Do not introduce new actions to rescue the result in Part 1. Correcting an unsupported sales estimate is a correction; deciding to change how the company sells or operates belongs in Part 2. Existing changes already stated in the case still happen. Sales forecasts need evidence, but they do not all have to be signed contracts."
+        },
+        {
+          "paragraph": 9,
+          "text": "Use 09 Assumption Review to explain the main corrections and cite the relevant document or cell. Build the red-pencil P&L in 10 Corrected Budget. Show supporting calculations. Where evidence is incomplete, state a reasonable assumption; do not silently invent a new management decision."
+        },
+        {
+          "paragraph": 10,
+          "text": "Part 2 Management decisions and budget"
+        },
+        {
+          "paragraph": 11,
+          "text": "What would you change to improve the result? Record your decisions first in 11 Management Recommendation. For each main decision, state what changes, when it starts, what it costs, what effect you expect and why that expectation is achievable."
+        },
+        {
+          "paragraph": 12,
+          "text": "Then build a second monthly P&L in 12 Management Budget, starting from Part 1 and reflecting your decisions. Include the costs and time needed to achieve the proposed sales. Check that the people, marketing, delivery capacity and program economics support the result. Keep Part 1 intact so the effect of your decisions remains visible."
+        },
+        {
+          "paragraph": 13,
+          "text": "Your completed workbook"
+        },
+        {
+          "paragraph": 14,
+          "text": "Two separate monthly P&Ls: the red-pencil correction and the budget after your management decisions. Include the calculations behind them; add working sheets if needed."
+        },
+        {
+          "paragraph": 15,
+          "text": "A comparison of the original draft, Part 1 and Part 2 using the same months and P&L lines. Sheet 13 Monthly Comparison links these automatically. Explain the main changes from the draft to Part 1, and from Part 1 to Part 2."
+        },
+        {
+          "paragraph": 16,
+          "text": "Short explanations in sheets 09 and 11: evidence for corrections, your management decisions and the remaining risks. End with a recommendation to the board. You do not need a separate essay."
+        },
+        {
+          "paragraph": 17,
+          "text": "Working with AI"
+        },
+        {
+          "paragraph": 18,
+          "text": "Use separate AI chats or Codex agents to inspect sales, marketing, delivery capacity and staffing in parallel. Ask them to cite the exact file and number supporting each claim. For Part 1, explicitly prohibit new management decisions. For Part 2, ask another AI to challenge the feasibility, costs and timing of your proposed decisions."
+        },
+        {
+          "paragraph": 19,
+          "text": "You remain responsible for the assumptions and conclusions. Be ready to explain both results and why they differ. There is no single required profit figure; the two budgets must be supported by the case evidence and your stated decisions."
+        }
+      ],
+      "tables": []
+    },
+    {
+      "file": "01 Company Background and Management Targets.docx",
+      "paragraphs": [
+        {
+          "paragraph": 1,
+          "text": "Bad Boss Business School"
+        },
+        {
+          "paragraph": 2,
+          "text": "Company background and management targets"
+        },
+        {
+          "paragraph": 3,
+          "text": "Bad Boss Business School is a corporate training company. It helps ambitious managers learn the skills they already seem to practise. Its courses include Advanced Micromanagement, Meetings About Future Meetings, Professional Blame Delegation, Call Until They Buy and Promise First, Ask Operations Later. Clients include ordinary companies with ordinary training budgets; the jokes are in the course names, not in the accounting."
+        },
+        {
+          "paragraph": 4,
+          "text": "The company sells private corporate programs and seats in public open programs. Salespeople manage corporate clients and help fill open events. The program register is operations’ current delivery calendar, not a list of everything the sales team hopes to sell."
+        },
+        {
+          "paragraph": 5,
+          "text": "Prices and delivery rules"
+        },
+        {
+          "paragraph": 7,
+          "text": "Open-program catalogue"
+        },
+        {
+          "paragraph": 9,
+          "text": "The board’s request"
+        },
+        {
+          "paragraph": 10,
+          "text": "The board wants growth, but it will not approve sales without a credible route to customers and delivery, or profit without the required costs. The original draft aims for approximately €1 million of 2026 sales and a positive result. The board requires two separate answers: first, a red-pencil monthly P&L showing what the existing decisions can reasonably produce; second, your proposed management decisions and a new monthly P&L showing their effects. Compare both with the original draft on the same monthly basis."
+        },
+        {
+          "paragraph": 11,
+          "text": "Treat VAT as outside this exercise; prices and costs in these papers exclude VAT. Income tax is not modelled. You may state other modelling assumptions, but do not use tax changes as a substitute for resolving the operational budget."
+        }
+      ],
+      "tables": [
+        [
+          [
+            "Offer",
+            "Price and delivery assumption"
+          ],
+          [
+            "Standard corporate",
+            "€2,500 per training day for up to 20 participants. Typical engagement is 1 or 2 days; the average is about 1.5 days."
+          ],
+          [
+            "Large corporate",
+            "€2,500 per day for the first 20 participants, plus €650 per day for each started additional block of 10 participants, maximum 100."
+          ],
+          [
+            "Open programs",
+            "Seat price is €200, €500 or €600 depending on the course. A normal event can assemble about 12–20 paid participants."
+          ],
+          [
+            "Delivery people",
+            "A large program needs one delivery person per 30 participants, rounded up. The first is the instructor; the remainder are assistants."
+          ],
+          [
+            "External instructor",
+            "The current planning fee is €700 per day. An assistant earns one quarter of the instructor’s daily fee."
+          ]
+        ],
+        [
+          [
+            "Course",
+            "Length",
+            "Seat price"
+          ],
+          [
+            "How to Look Busy All Day",
+            "1 day",
+            "€200"
+          ],
+          [
+            "Advanced Micromanagement",
+            "2 days",
+            "€500"
+          ],
+          [
+            "Executive Blame Delegation",
+            "2 days",
+            "€600"
+          ]
+        ]
+      ]
+    },
+    {
+      "file": "03 Sales Director Plan.docx",
+      "paragraphs": [
+        {
+          "paragraph": 1,
+          "text": "Sales director’s 2026 plan"
+        },
+        {
+          "paragraph": 2,
+          "text": "Internal note from Mark Pressure to the board, 8 January 2026"
+        },
+        {
+          "paragraph": 3,
+          "text": "Last year’s results were poor, and the sales team needs a stronger target. The monthly budget by salesperson and product is in 05 Draft Sales Budget. The aim is roughly €1 million in sales, with corporate management training, corporate sales training and open-program seats all contributing. I have assigned a named person to every line because an unnamed target is not a plan."
+        },
+        {
+          "paragraph": 4,
+          "text": "Commercial approach"
+        },
+        {
+          "paragraph": 5,
+          "text": "Anna Power has strong relationships with management-training clients, including Big Chair Bank. Her pipeline is included across the year. Large clients may renew if we keep in contact."
+        },
+        {
+          "paragraph": 6,
+          "text": "Mark Pressure will continue selling corporate sales training and some open-program seats. His approach is to call more prospects and move proposals to a decision more quickly."
+        },
+        {
+          "paragraph": 7,
+          "text": "Linda Smile will grow open-program sales, especially the €500 and €600 courses. She expects companies to buy groups of seats as a cheaper alternative to a private program."
+        },
+        {
+          "paragraph": 8,
+          "text": "Peter Late has agreed to follow up more promptly. The budget assumes better production than last year, especially in the autumn."
+        },
+        {
+          "paragraph": 9,
+          "text": "Ella Fast is a promising new salesperson. Her first meaningful contracts are expected from June, and she should become a full contributor during the autumn."
+        },
+        {
+          "paragraph": 10,
+          "text": "Pipeline and timing"
+        },
+        {
+          "paragraph": 11,
+          "text": "The team expects three quarters of the corporate growth from repeat clients, referrals and improved conversion. Around one quarter should come from marketing enquiries. The budget assigns sales to the month in which programs are delivered. The typical corporate sales cycle is six to eight weeks after a qualified first conversation; open-program seats often sell in the four weeks before an event. No individual contract is guaranteed unless stated in the program plan."
+        },
+        {
+          "paragraph": 12,
+          "text": "I have not asked operations to reserve every possible date before the board approves the revenue target. Once we see which offers are accepted, we can add dates and secure trainers. We can also ask clients to move between months when dates are tight. I regard the 2026 sales budget as a challenging, achievable target, not a list of signed contracts."
+        }
+      ],
+      "tables": []
+    },
+    {
+      "file": "04 Marketing Director Plan.docx",
+      "paragraphs": [
+        {
+          "paragraph": 1,
+          "text": "Marketing director’s 2026 plan"
+        },
+        {
+          "paragraph": 2,
+          "text": "Internal note from Linda Smile to the board, 9 January 2026"
+        },
+        {
+          "paragraph": 3,
+          "text": "We spent heavily in 2025, and the board asked for a more efficient year. The monthly marketing appropriation is in 07 Draft Operating Costs. I plan to reduce broad paid advertising and spend more on referrals, alumni stories and direct outreach by salespeople. Our creative theme is “Become the boss everyone talks about.”"
+        },
+        {
+          "paragraph": 4,
+          "text": "Campaign calendar"
+        },
+        {
+          "paragraph": 6,
+          "text": "Lead assumptions"
+        },
+        {
+          "paragraph": 7,
+          "text": "The campaign will mainly promote Advanced Micromanagement and Professional Blame Delegation because the names attract attention. Sales can introduce other programs after the first conversation. We expect our higher-quality creative and personal follow-up to improve lead conversion, but the team has not yet tested a new conversion rate on a full campaign. We will review enquiries monthly."
+        },
+        {
+          "paragraph": 8,
+          "text": "The historical marketing sheet shows spend, campaigns, qualified corporate leads, corporate wins and open-program enquiries and seats. In my view the company does not need to repeat every euro of last year’s advertising to grow. The sales director owns the individual revenue target; marketing owns the activity budget above."
+        }
+      ],
+      "tables": [
+        [
+          [
+            "Period",
+            "Activity"
+          ],
+          [
+            "January–March",
+            "Refresh the website, produce testimonials and run light retargeting. The existing database remains available."
+          ],
+          [
+            "April–August",
+            "Two small open-program campaigns and selected corporate case studies. July activity is intentionally light."
+          ],
+          [
+            "September–November",
+            "Main new-client campaign, executive breakfast events and product launches."
+          ],
+          [
+            "December",
+            "Renewal and early-booking messages for next year."
+          ]
+        ]
+      ]
+    },
+    {
+      "file": "05 Operations and Trainer Plan.docx",
+      "paragraphs": [
+        {
+          "paragraph": 1,
+          "text": "Operations and trainer plan"
+        },
+        {
+          "paragraph": 2,
+          "text": "Internal note from the head of delivery, 10 January 2026"
+        },
+        {
+          "paragraph": 3,
+          "text": "The program register in 06 Draft Program Plan contains dates pencilled in by the operations team. It includes standard corporate programs, large programs and public open events, with an estimated participant count. Some are confirmed, while others are placeholders waiting for client approval. A placeholder does not reserve a trainer automatically."
+        },
+        {
+          "paragraph": 4,
+          "text": "People and room capacity"
+        },
+        {
+          "paragraph": 6,
+          "text": "Calendar note"
+        },
+        {
+          "paragraph": 7,
+          "text": "In the current register, there are 26 planned events. We can add programs if sales convert more opportunities. However, we cannot deliver an unspecified corporate program just because revenue is in a budget cell. We need a date, client, length, participant count, instructor, any assistants, room and a direct-cost estimate. Several events in September and October may be possible if scheduled early."
+        },
+        {
+          "paragraph": 8,
+          "text": "For standard programs we usually use one instructor. External instructor cost is treated as a direct program cost in the draft register, even when the internal senior instructor might occasionally deliver; this is a conservative simplification. Travel and materials depend on the client and audience size. The register’s default calculations are planning estimates, not signed supplier quotations."
+        }
+      ],
+      "tables": [
+        [
+          [
+            "Resource",
+            "2026 planning rule"
+          ],
+          [
+            "Senior instructor time",
+            "One internal senior instructor is available for up to 12 delivery days in a normal month; only 6 days in July, 8 in August, and 14 in September and October. Remaining days are sales support, design and leave."
+          ],
+          [
+            "External instructor pool",
+            "External instructors are usually available with 6–8 weeks’ notice. Their fee may differ from the current planning rate. A last-minute booking is not guaranteed."
+          ],
+          [
+            "Assistants",
+            "One regular assistant can cover at most 4 program days each month. Additional assistants must be booked individually and paid."
+          ],
+          [
+            "Open-program venue",
+            "The existing room holds 20 paid participants. Extra dates need a room, a trainer and additional promotion."
+          ],
+          [
+            "Large-program staffing",
+            "One delivery person per 30 participants, rounded up, including the lead instructor."
+          ]
+        ]
+      ]
+    },
+    {
+      "file": "06 HR and Personnel Plan.docx",
+      "paragraphs": [
+        {
+          "paragraph": 1,
+          "text": "HR and personnel plan"
+        },
+        {
+          "paragraph": 2,
+          "text": "Internal note from the people director, 11 January 2026"
+        },
+        {
+          "paragraph": 3,
+          "text": "The sales group is changing. Keep the employee dates in this note separate from the sales director’s target. A budget can include a target for an unfilled role, but the assumed dates and productivity must be visible."
+        },
+        {
+          "paragraph": 5,
+          "text": "Payroll planning"
+        },
+        {
+          "paragraph": 6,
+          "text": "The draft assumes four sales employees at EUR 1,800 fixed salary each per month: EUR 7,200 in total. Ella replaces Anna on the same fixed salary. Delivery coordination salaries are EUR 2,500 per month and administration salaries are EUR 2,000 per month. Employer payroll costs are 25% of fixed salaries for this case, not a statement of a statutory tax rate. These departmental lines are held flat in the submitted budget; finance still needs the employee schedule to agree with the actual leaving and joining dates."
+        },
+        {
+          "paragraph": 7,
+          "text": "A former employee might later sell on commission as an independent contractor, but there is currently no such agreement with Anna. If management wants that arrangement, it must budget the terms and avoid treating it as already signed. Ella cannot take client meetings for this business before her start date."
+        }
+      ],
+      "tables": [
+        [
+          [
+            "Person",
+            "Position and 2026 status"
+          ],
+          [
+            "Anna Power",
+            "Experienced salesperson. Her resignation is accepted. Last employment day is 28 February; no employment contract after that date. Her client files require handover."
+          ],
+          [
+            "Mark Pressure",
+            "Salesperson throughout 2026. Continues to lead the corporate sales-training portfolio."
+          ],
+          [
+            "Linda Smile",
+            "Salesperson throughout 2026, with responsibility for open-program sales."
+          ],
+          [
+            "Peter Late",
+            "Salesperson throughout 2026. Coaching on response times is planned but no measured uplift has yet been achieved."
+          ],
+          [
+            "Ella Fast",
+            "Offer accepted; employment starts 1 May. May is onboarding, June is supervised selling, July is a partial independent month; full productivity is expected no earlier than August."
+          ]
+        ]
+      ]
+    },
+    {
+      "file": "07 Finance and Administration Notes.docx",
+      "paragraphs": [
+        {
+          "paragraph": 1,
+          "text": "Finance and administration notes"
+        },
+        {
+          "paragraph": 2,
+          "text": "Internal note from the finance director, 12 January 2026"
+        },
+        {
+          "paragraph": 3,
+          "text": "The draft profit and loss statement is formula-linked to departmental worksheets. This does not mean the underlying assumptions have been approved. I used consistent arithmetic and the information departments had sent by the deadline."
+        },
+        {
+          "paragraph": 4,
+          "text": "Supplier rates and operating costs"
+        },
+        {
+          "paragraph": 5,
+          "text": "The default external instructor rate is €700 per day through June. The main supplier notified us of a 10% increase from 1 July. An assistant is paid one quarter of the relevant instructor daily fee."
+        },
+        {
+          "paragraph": 6,
+          "text": "A €25,000 training studio fit-out is due in April. It will be ready for use on 1 May and depreciated over five years, straight-line, with no residual value. The monthly depreciation line has not yet been revisited. The purchase price itself is not a P&L expense."
+        },
+        {
+          "paragraph": 7,
+          "text": "The monthly overhead allowances are EUR 1,800 for rent and utilities, EUR 450 for software, EUR 600 for accounting and legal support, EUR 350 for administration travel and EUR 350 for other expenses. Existing depreciation is EUR 800 per month and interest EUR 250 per month. Annual insurance is EUR 1,800. These are the existing cost base for Part 1, not savings already achieved by your decisions. The studio depreciation is additional from May. Any further cost changes you propose belong in Part 2 and need a reason and effective date."
+        },
+        {
+          "paragraph": 8,
+          "text": "All case figures are excluding VAT. This case is about managerial budgeting rather than tax computation. The operating profit figure in the workbook includes interest expense as a simplified management presentation; if you use a stricter EBIT definition, label your reconciliation."
+        },
+        {
+          "paragraph": 9,
+          "text": "The two budget versions"
+        },
+        {
+          "paragraph": 10,
+          "text": "Keep the original draft unchanged. In Part 1, correct what the existing plans and commitments imply for sales and expenses. In Part 2, record each new management decision before including its effects in a separate monthly P&L. Use the same P&L lines, cost signs and January–December periods in all three versions. Explain the difference between the corrected outcome and the outcome after your decisions. This is a profit and loss exercise; a cash-flow statement is not required."
+        }
+      ],
+      "tables": []
+    }
+  ],
+  "facts": [
+    {
+      "finding": "Anna leaves 28 February. No contractor agreement exists. Draft Mar–Dec Anna targets total 201000, including 175000 corporate and 26000 open. These cannot remain employee production.",
+      "sources": [
+        "06 HR and Personnel Plan.docx Table1 Anna row; P7",
+        "05 Draft Sales Budget F7:O9"
+      ],
+      "confidence": "high"
+    },
+    {
+      "finding": "Ella starts 1 May, May onboarding, June supervised, July partial; full productivity no earlier than August. June sales are possible, pre-May customer meetings are not.",
+      "sources": [
+        "06 HR and Personnel Plan.docx Table1 Ella row; P7",
+        "03 Sales Director Plan.docx P9"
+      ],
+      "confidence": "high"
+    },
+    {
+      "finding": "Peter coaching is planned, but no measured uplift achieved. Incumbent productivity uplift cannot be treated as established fact.",
+      "sources": [
+        "06 HR and Personnel Plan.docx Table1 Peter row",
+        "03 Sales Director Plan.docx P8"
+      ],
+      "confidence": "high"
+    },
+    {
+      "finding": "Corporate growth split 75% repeat/referral/improved conversion and 25% marketing applies to growth, not all revenue. Forecast delivered-month revenue and 6–8-week qualified corporate sales cycle.",
+      "sources": [
+        "03 Sales Director Plan.docx P11"
+      ],
+      "confidence": "high"
+    },
+    {
+      "finding": "26-event calendar is not every hoped sale and contains unidentified confirmed/placeholder status. Current register revenue 170800 must not become a blanket sales ceiling or be added to a separately inclusive sales forecast.",
+      "sources": [
+        "01 Company Background and Management Targets.docx P4",
+        "03 Sales Director Plan.docx P12",
+        "05 Operations and Trainer Plan.docx P3/P7",
+        "06 Draft Program Plan J34"
+      ],
+      "confidence": "high"
+    },
+    {
+      "finding": "Historical open revenue/seat inconsistencies: April 13500/22=613.636 and July 2500/4=625, above 600 catalogue maximum; July 4 seats despite zero delivered open events. Do not silently calibrate impossible seat prices.",
+      "sources": [
+        "02 Prior Year Sales G9/G12/G15/G18 and J9/J12/J15/J18",
+        "04 Prior Year Programs G12/J12/J9",
+        "01 Company Background and Management Targets.docx Table2"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "part1": {
+    "corporate": {
+      "monthly": [
+        37000,
+        40200,
+        27500,
+        32500,
+        25000,
+        20000,
+        11250.0,
+        27500,
+        47900,
+        50000,
+        30000,
+        30000
+      ],
+      "annual": 378850.0
+    },
+    "draft_corporate": {
+      "monthly": [
+        45000,
+        50000,
+        55000,
+        62500,
+        52500,
+        57500,
+        50000,
+        75000,
+        87500,
+        95000,
+        80000,
+        67500
+      ],
+      "annual": 777500
+    },
+    "corporate_correction": {
+      "monthly": [
+        -8000,
+        -9800,
+        -27500,
+        -30000,
+        -27500,
+        -37500,
+        -38750.0,
+        -47500,
+        -39600,
+        -45000,
+        -50000,
+        -37500
+      ],
+      "annual": -398650.0
+    },
+    "incumbent_corporate": {
+      "monthly": [
+        22500,
+        30000,
+        22500,
+        32500,
+        22500,
+        15000,
+        10000,
+        20000,
+        32500,
+        30000,
+        22500,
+        20000
+      ],
+      "annual": 280000
+    },
+    "incumbent_persons": {
+      "Mark": {
+        "monthly": [
+          12500,
+          15000,
+          10000,
+          17500,
+          12500,
+          10000,
+          7500,
+          10000,
+          17500,
+          15000,
+          12500,
+          10000
+        ],
+        "annual": 150000
+      },
+      "Linda": {
+        "monthly": [
+          5000,
+          7500,
+          7500,
+          7500,
+          5000,
+          2500,
+          2500,
+          5000,
+          7500,
+          10000,
+          5000,
+          5000
+        ],
+        "annual": 70000
+      },
+      "Peter": {
+        "monthly": [
+          5000,
+          7500,
+          5000,
+          7500,
+          5000,
+          2500,
+          0,
+          5000,
+          7500,
+          5000,
+          5000,
+          5000
+        ],
+        "annual": 60000
+      }
+    },
+    "anna_former_seasonal_corporate": {
+      "monthly": [
+        14500,
+        10000,
+        15000,
+        17500,
+        10000,
+        7500,
+        2500,
+        7500,
+        15000,
+        20000,
+        7500,
+        10000
+      ],
+      "annual": 137000
+    },
+    "anna_source_calendar": {
+      "monthly": [
+        0,
+        10200,
+        5000,
+        0,
+        2500,
+        0,
+        0,
+        0,
+        15400,
+        0,
+        5000,
+        0
+      ],
+      "annual": 38100
+    },
+    "ella_source_calendar": {
+      "monthly": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        5000,
+        0,
+        5000,
+        0,
+        4450,
+        0,
+        5000
+      ],
+      "annual": 19450
+    },
+    "all_source_calendar_corporate": {
+      "monthly": [
+        5000,
+        12700,
+        5000,
+        12050,
+        2500,
+        16500,
+        2500,
+        5000,
+        20400,
+        9450,
+        17800,
+        7500
+      ],
+      "annual": 116400
+    },
+    "former_anna_portfolio_envelope": {
+      "monthly": [
+        14500,
+        10200,
+        5000,
+        0,
+        2500,
+        5000,
+        1250.0,
+        7500,
+        15400,
+        20000,
+        7500,
+        10000
+      ],
+      "annual": 98850.0
+    },
+    "ella_productivity_ramp": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0.25,
+      0.5,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "formula": "Incumbent corporate = 2025 Mark+Linda+Peter corporate rows 10/11/13/14/16/17. Portfolio envelope Jan/Feb = max(Anna 2025 corporate, Anna source-calendar corporate); Mar–May = Anna source-calendar corporate retained by ordinary company handover; Jun–Dec = max(Ella ramp × Anna 2025 seasonal corporate, combined Anna+Ella source-calendar corporate). Total = sum of incumbent and portfolio envelope. Calendar revenue is included within, not added after, this forecast.",
+    "sources": [
+      "02 Prior Year Sales D7:O8, D10:O11, D13:O14, D16:O17",
+      "06 Draft Program Plan J9/J11/J15/J17/J20/J22/J26/J28/J32",
+      "06 HR and Personnel Plan.docx Table1",
+      "03 Sales Director Plan.docx P5/P9/P11/P12",
+      "00 Start Here Budget Review Assignment.docx P7–9"
+    ],
+    "assumptions": [
+      "Mark, Linda and Peter repeat their 2025 monthly corporate throughput; existing more calls/coaching/creative continue but untested productivity uplift is excluded from expected revenue. This is a forecast assumption, not a change to current sales activity.",
+      "Company retains listed Anna-owned client deliveries through ordinary employee handover already required in HR note, without retaining Anna on payroll or paying a contractor. Individual retained event status is unconfirmed;100% inclusion is an explicit expected calendar assumption, not proof of signed contracts.",
+      "Ella uses former Anna seasonal corporate production as a replacement-role benchmark, 25% June, 50% July, 100% August onward. Percentages are modelling assumptions, not facts in the papers. The full-productivity date is allowed by HR but optimistic at the earliest August boundary.",
+      "Residual corporate opportunities may become additional dated programs under the already stated sales/operations expansion approach. Forecast needs a cost/capacity bridge and booking before the 6–8-week deadline; it is not a list of signed clients.",
+      "The portfolio envelope is a company total, not guaranteed individual employee attribution. Retained Anna calendar and Ella production use the same portfolio, preventing double counting."
+    ],
+    "open_controls": {
+      "draft_open": {
+        "monthly": [
+          10500,
+          13000,
+          14500,
+          18000,
+          15500,
+          16000,
+          10000,
+          16500,
+          26000,
+          29000,
+          23500,
+          19500
+        ],
+        "annual": 212000
+      },
+      "prior_open": {
+        "monthly": [
+          7500,
+          10500,
+          8000,
+          13500,
+          10500,
+          6500,
+          2500,
+          5500,
+          13000,
+          15500,
+          10000,
+          8500
+        ],
+        "annual": 111500
+      },
+      "historical_seats": {
+        "monthly": [
+          15,
+          18,
+          16,
+          22,
+          19,
+          12,
+          4,
+          8,
+          24,
+          27,
+          18,
+          15
+        ],
+        "annual": 198
+      },
+      "historical_marketing_spend": {
+        "monthly": [
+          6000,
+          5000,
+          6500,
+          6500,
+          5000,
+          4000,
+          2500,
+          3500,
+          7500,
+          8000,
+          6500,
+          4500
+        ],
+        "annual": 65500
+      },
+      "current_marketing_spend": {
+        "monthly": [
+          5500,
+          5000,
+          5000,
+          4500,
+          4000,
+          3500,
+          2000,
+          3000,
+          5500,
+          6000,
+          5000,
+          3500
+        ],
+        "annual": 52500
+      },
+      "unchanged_monthly_efficiency_expected_seats": {
+        "monthly": [
+          13.75,
+          18.0,
+          12.307692,
+          15.230769,
+          15.2,
+          10.5,
+          3.2,
+          6.857143,
+          17.6,
+          20.25,
+          13.846154,
+          11.666667
+        ],
+        "annual": 158.408425
+      },
+      "demand_formula": "Historical same-month seats × current same-month marketing budget / historical same-month marketing spend, with historical conversion unchanged. Explicit proportional-spend assumption; referrals/database may partly offset, creative is untested. This is a demand control, not final revenue or a firm seat cap.",
+      "sources": [
+        "03 Prior Year Marketing D7:O7/D11:O12",
+        "04 Prior Year Programs D9:O13",
+        "07 Draft Operating Costs D11:O11",
+        "04 Marketing Director Plan.docx P3/P7/P8 andTable1",
+        "03 Sales Director Plan.docx P11"
+      ],
+      "integration_rules": [
+        "Use course-specific 200/500/600 seat prices, each scheduled event maximum 20 paid participants. Do not multiply historical April/July implied prices.",
+        "No double counting group seat sales as both corporate contracts and open seats.",
+        "Include trainer, venue and promotion for additional dates. Normal 12–20 attendance is a range, not a licence to assume every event fills 20.",
+        "Keep existing planned events/cost commitments in Part 1 even if forecast attendance is below normal; cancellations/consolidation are Part 2 decisions.",
+        "Specific event attendance assumptions should reconcile with marketing pipeline, months and company open revenue. Do not apply the 25% corporate growth split to open demand."
+      ]
+    }
+  },
+  "part2_sales_decisions": [
+    {
+      "decision": "Negotiate Anna independent commission contract before her February departure, effective March through December",
+      "status": "Proposed new management decision; no agreement currently signed",
+      "start": "Negotiation January/February; effective 1 March; first expected delivery March only where qualified renewal conversation occurs in Jan/Feb",
+      "revenue_increment": {
+        "monthly": [
+          0,
+          0,
+          4000.0,
+          7000.0,
+          3000.0,
+          1000.0,
+          500.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "annual": 15500.0
+      },
+      "recovery_rate": 0.4,
+      "formula": "40% × MAX(0, former Anna 2025 corporate seasonal benchmark − Part 1 portfolio envelope), March–December only.",
+      "reason": "Only recover unbudgeted book; do not duplicate Ella or retained company calendar. 40% is a modest untested retention assumption requiring acceptance, customer follow-up and date booking.",
+      "commission_rate_total": 0.1,
+      "commission_contract_revenue": {
+        "monthly": [
+          0,
+          0,
+          9000.0,
+          7000.0,
+          5500.0,
+          1000.0,
+          500.0,
+          0.0,
+          15400.0,
+          0.0,
+          5000.0,
+          0.0
+        ],
+        "annual": 43400.0
+      },
+      "total_contractor_commission": {
+        "monthly": [
+          0.0,
+          0.0,
+          900.0,
+          700.0,
+          550.0,
+          100.0,
+          50.0,
+          0.0,
+          1540.0,
+          0.0,
+          500.0,
+          0.0
+        ],
+        "annual": 4340.0
+      },
+      "incremental_commission_above_existing_5percent": {
+        "monthly": [
+          0.0,
+          0.0,
+          450.0,
+          350.0,
+          275.0,
+          50.0,
+          25.0,
+          0.0,
+          770.0,
+          0.0,
+          250.0,
+          0.0
+        ],
+        "annual": 2170.0
+      },
+      "cost_rule": "Ordinary 5% already in direct costs on all revenue, including 15,500 incremental revenue. Add extra 5% on 27,900 existing Anna source-calendar post-Feb revenue plus 15,500 recovery = 43,400 base, giving 2,170 additional fee. Total contractor fee 4,340. Do not add 10% on top of an unreversed existing 5%. Incremental delivery, materials and assistants still required separately.",
+      "sources": [
+        "06 HR and Personnel Plan.docx P7/Table1 Anna row",
+        "03 Sales Director Plan.docx P5/P11",
+        "02 Prior Year Sales F7:O8",
+        "06 Draft Program Plan J11/J15/J22/J28 andQ7:Q32"
+      ],
+      "risks": [
+        "Anna may decline or clients may follow her elsewhere. If unsigned before departure, remove contractor assumptions rather than call the deal existing.",
+        "March relies on advance qualified client contact; later negotiation shifts revenue by 6–8 weeks.",
+        "Forecast amounts such as 4,000 are probability-weighted portfolio revenue at unchanged catalogue prices, not a discrete event with an invented price. Delivery costs/whole-event capacity must reflect the pipeline."
+      ]
+    },
+    {
+      "decision": "Optional alternative or subsequent pilot: measurable lead-response and proposal-follow-up process",
+      "start": "February setup and training; qualified corporate opportunities fromMarch; earliest incremental deliveryMay",
+      "additional_opex": {
+        "monthly": [
+          0,
+          500,
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          150
+        ],
+        "annual": 2000
+      },
+      "opex_assumptions": "500 one-off external training/setup in February, 150 monthly extra CRM/automation March–December. Keep existing payroll; name Mark/Linda/Peter owners and weekly review. These are estimated-cost placeholders for a management decision, not original case prices or actual supplier quotes.",
+      "target_incremental_standard_contracts": {
+        "monthly": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "annual": 5
+      },
+      "target_incremental_revenue": {
+        "monthly": [
+          0,
+          0,
+          0,
+          0,
+          5000,
+          5000,
+          0,
+          0,
+          5000,
+          5000,
+          5000,
+          0
+        ],
+        "annual": 25000
+      },
+      "incremental_external_delivery_cost_including_commission_materials": {
+        "monthly": [
+          0,
+          0,
+          0,
+          0,
+          2250,
+          2250,
+          0,
+          0,
+          2390,
+          2390,
+          2390,
+          0
+        ],
+        "annual": 11670
+      },
+      "standalone_profit_effect_before_other_changes": 11330,
+      "feasibility": "Each assumed incremental engagement is local standard corporate, 2 days, 20 participants, 5,000 revenue, 600 materials, 5% commission, external instructor 1,400 through June or 1,540 thereafter; travel 0 assumption. Five new wins require about 25 qualified conversations at the historical 58/288=20.14% conversion. Must ring-fence these from baseline and Anna recovery, or do not add them. Eight-week trainer booking is feasible if reviewed two months ahead; ten extra lead-instructor days need capacity approval.",
+      "sources": [
+        "01 Company Background and Management Targets.docx Table1",
+        "03 Sales Director Plan.docx P6/P8/P11",
+        "03 Prior Year Marketing P9/P10",
+        "07 Finance and Administration Notes.docx P5"
+      ],
+      "recommendation": "Do not automatically stack with Anna recovery in a budget; choose named incremental opportunities and validate volume/capacity before inclusion. New formal service-level workflow can justify future uplift, but current unmeasured coaching cannot."
+    }
+  ],
+  "checks": {
+    "corporate_total_378850": true,
+    "draft_revenue_reconciles_989500": true,
+    "retained_calendar_not_added_twice": true,
+    "corporate_supports_all_source_calendar": true,
+    "anna_recovery_15500": true,
+    "contract_base_43400": true,
+    "incremental_fee_2170": true,
+    "no_ella_revenue_before_june": true
+  }
+}
